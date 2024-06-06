@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on 小熊尾巴</title>
-    <link>http://116.62.214.11/tags/vim/</link>
+    <link>http://localhost:60415/tags/vim/</link>
     <description>Recent content in Vim on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <lastBuildDate>Wed, 29 May 2024 16:01:02 +0800</lastBuildDate><atom:link href="http://116.62.214.11/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2024 16:01:02 +0800</lastBuildDate><atom:link href="http://localhost:60415/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>为何 Emacs 和 Vim 被称为两大神器</title>
-      <link>http://116.62.214.11/blog/why-emacs-vim-good/</link>
+      <link>http://localhost:60415/blog/why-emacs-vim-good/</link>
       <pubDate>Wed, 29 May 2024 16:01:02 +0800</pubDate>
       
-      <guid>http://116.62.214.11/blog/why-emacs-vim-good/</guid>
+      <guid>http://localhost:60415/blog/why-emacs-vim-good/</guid>
       <description>Emacs 是神的编辑器，而 Vim 是编辑器之神。二者为何会有如此美誉，且听本文向你一一道来。</description>
       
     </item>

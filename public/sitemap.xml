@@ -3,97 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://116.62.214.11/blog/</loc>
+    <loc>http://localhost:60415/blog/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/</loc>
+    <loc>http://localhost:60415/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/why-lisp/</loc>
+    <loc>http://localhost:60415/blog/master-emacs/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/why-emacs-vim-good/</loc>
+    <loc>http://localhost:60415/blog/why-lisp/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:60415/blog/why-emacs-vim-good/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/project/</loc>
+    <loc>http://localhost:60415/project/</loc>
     <lastmod>2023-10-07T14:56:05+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/how-i-learn-frontend/</loc>
+    <loc>http://localhost:60415/blog/how-i-learn-frontend/</loc>
     <lastmod>2023-03-29T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/project/how-to-build-a-snake-game-in-javascript/</loc>
+    <loc>http://localhost:60415/project/how-to-build-a-snake-game-in-javascript/</loc>
     <lastmod>2023-03-08T04:43:06+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/project/how-to-build-a-stop-watch-in-javascript/</loc>
+    <loc>http://localhost:60415/project/how-to-build-a-stop-watch-in-javascript/</loc>
     <lastmod>2023-03-07T18:50:21+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/booknote/</loc>
+    <loc>http://localhost:60415/booknote/</loc>
     <lastmod>2023-02-05T14:37:50+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/deploy-project-to-gh-pages/</loc>
+    <loc>http://localhost:60415/blog/deploy-project-to-gh-pages/</loc>
     <lastmod>2022-10-18T20:36:05+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/create-a-wesite-using-github-pages-and-hugo/</loc>
+    <loc>http://localhost:60415/blog/create-a-wesite-using-github-pages-and-hugo/</loc>
     <lastmod>2022-09-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/now/</loc>
+    <loc>http://localhost:60415/now/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/create-for-whom/</loc>
+    <loc>http://localhost:60415/blog/create-for-whom/</loc>
     <lastmod>2022-08-12T13:04:43+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/booknote/atomic-habits/</loc>
+    <loc>http://localhost:60415/booknote/atomic-habits/</loc>
     <lastmod>2022-08-06T15:00:12+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/blog/why-blog/</loc>
+    <loc>http://localhost:60415/blog/why-blog/</loc>
     <lastmod>2022-06-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://116.62.214.11/about/</loc>
+    <loc>http://localhost:60415/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

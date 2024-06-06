@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on 小熊尾巴</title>
-    <link>http://116.62.214.11/authors/</link>
+    <link>http://localhost:60415/authors/</link>
     <description>Recent content in Authors on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <atom:link href="http://116.62.214.11/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:60415/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
