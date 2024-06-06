@@ -2,138 +2,138 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 小熊尾巴</title>
-    <link>http://localhost:60415/tags/</link>
+    <link>http://116.62.214.11/tags/</link>
     <description>Recent content in Tags on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:60415/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://116.62.214.11/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs</title>
-      <link>http://localhost:60415/tags/emacs/</link>
+      <link>http://116.62.214.11/tags/emacs/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:60415/tags/emacs/</guid>
+      <guid>http://116.62.214.11/tags/emacs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Content Creation</title>
-      <link>http://localhost:60415/tags/content-creation/</link>
+      <link>http://116.62.214.11/tags/content-creation/</link>
       <pubDate>Wed, 05 Jun 2024 16:01:02 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/content-creation/</guid>
+      <guid>http://116.62.214.11/tags/content-creation/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vim</title>
-      <link>http://localhost:60415/tags/vim/</link>
+      <link>http://116.62.214.11/tags/vim/</link>
       <pubDate>Wed, 29 May 2024 16:01:02 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/vim/</guid>
+      <guid>http://116.62.214.11/tags/vim/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Css</title>
-      <link>http://localhost:60415/tags/css/</link>
+      <link>http://116.62.214.11/tags/css/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/css/</guid>
+      <guid>http://116.62.214.11/tags/css/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Html</title>
-      <link>http://localhost:60415/tags/html/</link>
+      <link>http://116.62.214.11/tags/html/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/html/</guid>
+      <guid>http://116.62.214.11/tags/html/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>http://localhost:60415/tags/javascript/</link>
+      <link>http://116.62.214.11/tags/javascript/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/javascript/</guid>
+      <guid>http://116.62.214.11/tags/javascript/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nodejs</title>
-      <link>http://localhost:60415/tags/nodejs/</link>
+      <link>http://116.62.214.11/tags/nodejs/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/nodejs/</guid>
+      <guid>http://116.62.214.11/tags/nodejs/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>React</title>
-      <link>http://localhost:60415/tags/react/</link>
+      <link>http://116.62.214.11/tags/react/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/react/</guid>
+      <guid>http://116.62.214.11/tags/react/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tailwind</title>
-      <link>http://localhost:60415/tags/tailwind/</link>
+      <link>http://116.62.214.11/tags/tailwind/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/tailwind/</guid>
+      <guid>http://116.62.214.11/tags/tailwind/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Github Pages</title>
-      <link>http://localhost:60415/tags/github-pages/</link>
+      <link>http://116.62.214.11/tags/github-pages/</link>
       <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/github-pages/</guid>
+      <guid>http://116.62.214.11/tags/github-pages/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://localhost:60415/tags/tutorial/</link>
+      <link>http://116.62.214.11/tags/tutorial/</link>
       <pubDate>Tue, 18 Oct 2022 20:36:05 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/tutorial/</guid>
+      <guid>http://116.62.214.11/tags/tutorial/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://localhost:60415/tags/hugo/</link>
+      <link>http://116.62.214.11/tags/hugo/</link>
       <pubDate>Mon, 29 Aug 2022 13:01:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/hugo/</guid>
+      <guid>http://116.62.214.11/tags/hugo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Productivity</title>
-      <link>http://localhost:60415/tags/productivity/</link>
+      <link>http://116.62.214.11/tags/productivity/</link>
       <pubDate>Sat, 06 Aug 2022 15:00:12 +0800</pubDate>
       
-      <guid>http://localhost:60415/tags/productivity/</guid>
+      <guid>http://116.62.214.11/tags/productivity/</guid>
       <description></description>
       
     </item>

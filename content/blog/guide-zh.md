@@ -1371,9 +1371,7 @@ Emacs Lisp 又是只用于 Emacs 的语言, 有大量术语需要掌握. 如 &ld
 
 # 联系我
 
-这是我的 [Twitter](https://twitter.com/#!/chen_bin) 和 [Google Plus](https://plus.google.com/110954683162859211810) 以及 [微博](http://www.weibo.com/u/2453581630), 我在新浪微博账号&ldquo;emacsguru&rdquo;.
-
-博客为 <http://blog.binchen.org>.
+这是我的 [Twitter](https://twitter.com/chanqi4444) ，博客为 <http://116.62.214.11>。
 
 我不回答具体配置的问题. 如你通读本文, 应知道哪里找答案更好.
 

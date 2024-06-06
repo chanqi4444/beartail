@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on 小熊尾巴</title>
-    <link>http://localhost:60415/tags/javascript/</link>
+    <link>http://116.62.214.11/tags/javascript/</link>
     <description>Recent content in Javascript on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="http://localhost:60415/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="http://116.62.214.11/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重生之我会如何学前端</title>
-      <link>http://localhost:60415/blog/how-i-learn-frontend/</link>
+      <link>http://116.62.214.11/blog/how-i-learn-frontend/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>http://localhost:60415/blog/how-i-learn-frontend/</guid>
+      <guid>http://116.62.214.11/blog/how-i-learn-frontend/</guid>
       <description>学习前端的路线与用到的资源</description>
       
     </item>
     
     <item>
       <title>如何用JavaScript实现贪吃蛇游戏</title>
-      <link>http://localhost:60415/project/how-to-build-a-snake-game-in-javascript/</link>
+      <link>http://116.62.214.11/project/how-to-build-a-snake-game-in-javascript/</link>
       <pubDate>Wed, 08 Mar 2023 04:43:06 +0800</pubDate>
       
-      <guid>http://localhost:60415/project/how-to-build-a-snake-game-in-javascript/</guid>
+      <guid>http://116.62.214.11/project/how-to-build-a-snake-game-in-javascript/</guid>
       <description>JavaScript的练习项目，实现贪吃蛇游戏。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:60415/project/how-to-build-a-snake-game-in-javascript/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://116.62.214.11/project/how-to-build-a-snake-game-in-javascript/featured.png" />
     </item>
     
     <item>
       <title>如何用JavaScript实现秒表计时器</title>
-      <link>http://localhost:60415/project/how-to-build-a-stop-watch-in-javascript/</link>
+      <link>http://116.62.214.11/project/how-to-build-a-stop-watch-in-javascript/</link>
       <pubDate>Tue, 07 Mar 2023 18:50:21 +0800</pubDate>
       
-      <guid>http://localhost:60415/project/how-to-build-a-stop-watch-in-javascript/</guid>
+      <guid>http://116.62.214.11/project/how-to-build-a-stop-watch-in-javascript/</guid>
       <description>JavaScript的练习项目，实现开始计时，暂停计时，和重置时间的功能。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:60415/project/how-to-build-a-stop-watch-in-javascript/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://116.62.214.11/project/how-to-build-a-stop-watch-in-javascript/featured.png" />
     </item>
     
   </channel>
