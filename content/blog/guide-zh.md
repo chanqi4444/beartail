@@ -1,10 +1,10 @@
 ---
-title: "一年成为Emacs高手 (像神一样使用编辑器)"
+title: "一年成为Emacs高手 (像熊一样使用编辑器)"
 date: 2024-06-06
 lastmod: 2024-06-06
 tags: ["emacs"]
 description: ""
-summary: "如何在一年内成为Emacs高手（像神一样使用编辑器）"
+summary: "如何在一年内成为Emacs高手（像熊一样使用编辑器）"
 slug: master-emacs
 ---
 
