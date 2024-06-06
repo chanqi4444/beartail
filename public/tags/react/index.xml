@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>React on 小熊尾巴</title>
-    <link>https://cuttontail.blog/tags/react/</link>
+    <link>http://116.62.214.11/tags/react/</link>
     <description>Recent content in React on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Mar 2023 23:09:30 +0800</lastBuildDate><atom:link href="http://116.62.214.11/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>重生之我会如何学前端</title>
-      <link>https://cuttontail.blog/blog/how-i-learn-frontend/</link>
+      <link>http://116.62.214.11/blog/how-i-learn-frontend/</link>
       <pubDate>Wed, 15 Mar 2023 23:09:30 +0800</pubDate>
       
-      <guid>https://cuttontail.blog/blog/how-i-learn-frontend/</guid>
+      <guid>http://116.62.214.11/blog/how-i-learn-frontend/</guid>
       <description>学习前端的路线与用到的资源</description>
       
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Productivity on 小熊尾巴</title>
-    <link>https://cuttontail.blog/tags/productivity/</link>
+    <link>http://116.62.214.11/tags/productivity/</link>
     <description>Recent content in Productivity on 小熊尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 可爱的小困熊</copyright>
-    <lastBuildDate>Sat, 06 Aug 2022 15:00:12 +0800</lastBuildDate><atom:link href="https://cuttontail.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 15:00:12 +0800</lastBuildDate><atom:link href="http://116.62.214.11/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《掌控习惯》：如何设计生活，让好习惯更容易养成？</title>
-      <link>https://cuttontail.blog/booknote/atomic-habits/</link>
+      <link>http://116.62.214.11/booknote/atomic-habits/</link>
       <pubDate>Sat, 06 Aug 2022 15:00:12 +0800</pubDate>
       
-      <guid>https://cuttontail.blog/booknote/atomic-habits/</guid>
+      <guid>http://116.62.214.11/booknote/atomic-habits/</guid>
       <description>《掌控习惯》这本书主要回答2个问题：</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cuttontail.blog/booknote/atomic-habits/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://116.62.214.11/booknote/atomic-habits/featured.png" />
     </item>
     
   </channel>
