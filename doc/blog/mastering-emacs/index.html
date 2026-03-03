@@ -1,0 +1,2370 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="light"
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60403&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="zh-cn" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>一年成为Emacs高手 (像神一样使用编辑器) &middot; 小熊尾巴</title>
+  <meta name="title" content="一年成为Emacs高手 (像神一样使用编辑器) &middot; 小熊尾巴" />
+  
+  <meta name="description" content="写作即思考，不是我有什么话要说，是为了弄清楚我到底想说什么。" />
+  <meta name="keywords" content="content creation, " />
+  
+  
+  <link rel="canonical" href="http://localhost:60403/blog/mastering-emacs/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.a112ad3ed10d9b33c4aa2349bf7e74716a91b05b866ba8b458c4d0edfaa0b1ae2658e14c3cd5059d6f2884ebc33819dae0f22e30aa4cffd766345e4c84887581.css"
+    integrity="sha512-oRKtPtENmzPEqiNJv350cWqRsFuGa6i0WMTQ7fqgsa4mWOFMPNUFnW8ohOvDOBna4PIuMKpM/9dmNF5MhIh1gQ==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
+    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.d6c35110b5d7df8014403fbb81cd21a9d89daf9eb586c936e585e9d04adc204dce554aa737f81e8c902b9dea9e67bd63a977b77dedefb8a39430581ebc519207.js"
+    integrity="sha512-1sNRELXX34AUQD&#43;7gc0hqdidr561hsk25YXp0ErcIE3OVUqnN/gejJArneqeZ71jqXe3fe3vuKOUMFgevFGSBw==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:60403/blog/mastering-emacs/">
+  <meta property="og:site_name" content="小熊尾巴">
+  <meta property="og:title" content="一年成为Emacs高手 (像神一样使用编辑器)">
+  <meta property="og:description" content="写作即思考，不是我有什么话要说，是为了弄清楚我到底想说什么。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2022-05-29T16:01:02+08:00">
+    <meta property="article:modified_time" content="2022-06-03T00:00:00+00:00">
+    <meta property="article:tag" content="Content Creation">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="一年成为Emacs高手 (像神一样使用编辑器)">
+  <meta name="twitter:description" content="写作即思考，不是我有什么话要说，是为了弄清楚我到底想说什么。">
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "一年成为Emacs高手 (像神一样使用编辑器)",
+    "headline": "一年成为Emacs高手 (像神一样使用编辑器)",
+    
+    "abstract": "写作即思考，不是我有什么话要说，是为了弄清楚我到底想说什么。",
+    "inLanguage": "zh-cn",
+    "url" : "http:\/\/localhost:60403\/blog\/mastering-emacs\/",
+    "author" : {
+      "@type": "Person",
+      "name": "可爱的小困熊"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-05-29T16:01:02\u002b08:00",
+    "datePublished": "2022-05-29T16:01:02\u002b08:00",
+    
+    "dateModified": "2022-06-03T00:00:00\u002b00:00",
+    
+    "keywords": ["content creation"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "2052"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="可爱的小困熊" />
+  
+  
+  
+  <link href="https://github.com/chanqi4444" rel="me" />
+  
+  
+  <link href="https://twitter.com/chanqi4444" rel="me" />
+  
+  
+  <link href="https://t.me/chanqi4444" rel="me" />
+  
+  
+  <link href="mailto:chanqi4444@gmail.com" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCgVSzhtWbaxQSBZzWZks00MgVoSO7aCPA",
+      authDomain: "AIzaSyCgVSzhtWbaxQSBZzWZks00MgVoSO7aCPA",
+      projectId: "cuttontail",
+      storageBucket: "cuttontail.appspot.com",
+      messagingSenderId: "934174669984",
+      appId: "1:934174669984:web:d1126405ad4ddd04b81dc5",
+      measurementId: "G-Z4CHFZFFYY"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">小熊尾巴</span>
+
+            <img src="/img/logo.png" width="306" height="243"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="小熊尾巴" />
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">小熊尾巴</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Blog
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/booknote/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Book Note
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/now/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Now
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        About
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/blog/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/booknote/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Book Note
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/now/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Now
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+ 
+
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      一年成为Emacs高手 (像神一样使用编辑器)
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2022-05-29 16:01:02 &#43;0800 CST">2022-05-29</time><span class="px-2 text-primary-500">&middot;</span><time datetime="2022-06-03 00:00:00 &#43;0000 UTC">Updated 2022-06-03</time><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="views_blog/guide-zh.org" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+  
+  
+    
+    
+      
+      
+        
+        
+      
+      
+    
+  
+  <span id="likes_blog/guide-zh.org"
+    class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
+    title="likes">loading</span>
+  <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+</span>
+</span><span class="px-2 text-primary-500">&middot;</span><span>
+    <button id="button_likes"
+        class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"
+        onclick="process_article()">
+        <span id="button_likes_heart" style="display:none" class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+  </span>
+
+ </span>
+        <span id="button_likes_emtpty_heart" class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M244 84L255.1 96L267.1 84.02C300.6 51.37 347 36.51 392.6 44.1C461.5 55.58 512 115.2 512 185.1V190.9C512 232.4 494.8 272.1 464.4 300.4L283.7 469.1C276.2 476.1 266.3 480 256 480C245.7 480 235.8 476.1 228.3 469.1L47.59 300.4C17.23 272.1 0 232.4 0 190.9V185.1C0 115.2 50.52 55.58 119.4 44.1C164.1 36.51 211.4 51.37 244 84C243.1 84 244 84.01 244 84L244 84zM255.1 163.9L210.1 117.1C188.4 96.28 157.6 86.4 127.3 91.44C81.55 99.07 48 138.7 48 185.1V190.9C48 219.1 59.71 246.1 80.34 265.3L256 429.3L431.7 265.3C452.3 246.1 464 219.1 464 190.9V185.1C464 138.7 430.4 99.07 384.7 91.44C354.4 86.4 323.6 96.28 301.9 117.1L255.1 163.9z"/></svg>
+  </span>
+
+</span>
+        <span id="button_likes_text">&nbsp;Like</span>
+    </button>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/content-creation/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Content Creation
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="可爱的小困熊" src="/img/avatar.jpg" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      可爱的小困熊
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">一只可爱的小困熊</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/chanqi4444"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://twitter.com/chanqi4444"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://t.me/chanqi4444"
+          target="_blank"
+          aria-label="Telegram"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:chanqi4444@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <h1 class="title">一年成为Emacs高手 (像神一样使用编辑器)</h1>
+<div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+简介
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>成为高手很容易. 我初学Emacs时常忘记&#34;退出&#34;的快捷键, 一年后我完全掌握了Emacs.</p>
+<p>
+一些文章强调Emacs有多牛, 但关于&#34;如何做&#34;则语焉不详. 即使涉及到&#34;如何做&#34;, 谈细节多而方法论少.</p>
+<p>
+很多人花了大量时间&#34;学习&#34;Emacs却最终放弃,就是因为过于拘泥细节,而方法论上出了问题.</p>
+<p>
+例如,初学者背少用的快捷键会有很大的挫折感.一个月记住50个快捷键后算很厉害了.但是Emacs可以配置快捷键的命令近7000个.如果记住所有快捷键等同于掌握Emacs的话,一个人需要花至少十年.99%的快捷键很少用,少用的按键很快就忘了.花了十年做了99%都是无用功的事情当然非常打击积极性.</p>
+<p>
+除本文之外的任何一本Emacs教程都会列出至少100个&#34;常用&#34;的快捷键.我不会刻意教你某个快捷键,但是会告诉你:</p>
+<ul>
+<li>一个人记住的快捷键数量和他的Emacs水平没有必然联系</li>
+<li>20个甚至更少的快捷键够用了</li>
+<li>常用的是哪些快捷键</li>
+<li>其他按键在使用过程中会自然记住</li>
+</ul>
+<p>我在快捷键这个问题上指明大方向,避免了记住7000个快捷键这个恐怖的任务,学习过程变轻松很多.</p>
+<p>
+这个例子说明了本文独特之处在于集中火力在&#34;方法论&#34;.</p>
+<p>
+方法论基于实践和经验总结,有事实证据支持.例如常用快捷键列表是用 <a href="https://github.com/dacap/keyfreq">keyfreq</a> 的插件积累至6个月数据统计出来的.</p>
+<p>
+全文结构如下:</p>
+<ul>
+<li>为什么 Emacs 值得学习, 对开源文化熟悉可跳过这一章</li>
+<li>实事求是,戒骄戒躁</li>
+<li>充分利用高手成果, 不要重复发明轮子</li>
+<li>尽快掌握 Emacs 的步骤</li>
+<li>如何提高 (社区, 阅读, 知识管理)</li>
+<li>跳出具体技巧, 重要的是人</li>
+<li>答疑和小结</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-2">
+<h2 id="headline-4">
+为什么用 Emacs (可选)
+</h2>
+<div id="outline-text-headline-4" class="outline-text-2">
+<p>虽然本文的重点是&#34;怎么做&#34;, 而不是&#34;为什么&#34;.但先解释一下Emacs的优秀之处很有必要.</p>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+学会了Emacs就同时学会了其他编辑器
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<p>Emacs的自由度高且历史悠久,所以即使常用的功能也比其他软件类似功能强大的多.</p>
+<p>
+切换到其他编辑器后,可以根据Emacs的独特经验优化自己的工作流.</p>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+优秀的社区
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<p>Emacs Lisp 不同寻常的语法决定了其开发者都是资深开发者, 掌握了多门语言.</p>
+</div>
+</div>
+<div id="outline-container-headline-7" class="outline-3">
+<h3 id="headline-7">
+编程速度更快
+</h3>
+<div id="outline-text-headline-7" class="outline-text-3">
+<p>IDE 针对特定语言或框架优化, Emacs 完成通用任务更有效.</p>
+<p>
+例如, 我碰到难题需上 IRC 请教国外高手 (工作流是, 粘贴代码到 <a href="http://gist.github.com">http://gist.github.com</a>, 在 irc 提问, 看网页, 将解决方案粘贴回来), Emacs 集成了 IRC 工具和浏览器操作就很方便.</p>
+<p>
+口说无凭, 请看高手视频, <a href="https://www.youtube.com/watch?v=AgRsYOJi6ao">abo-abo演示的查找替换技术</a></p>
+<p>
+顺便说一下, Emacs的&#34;代码自动完成&#34;和&#34;代码导航&#34;两个功能对主流编程语言支持都不错.</p>
+<p>
+&#34;不错&#34;的意思是达到90%的功能,是否能达到100%取决于安装了哪些插件. 达不到100%,适当妥协一下,90%也不错.</p>
+<p>
+不要斤斤计较在&#34;代码自动完成&#34;和&#34;代码导航&#34;要完全复制IDE的体验.而忽视了Emacs的在这两个功能上的特色.</p>
+<p>
+高级程序员对API早已熟悉,在大项目中的新代码和老代码相似.所以他们对&#34;智能&#34;不在意,对写代码速度更重视.</p>
+<p>
+例如web程序员需求在javascript文件写css和html代码. Emacs结合 <a href="https://en.wikipedia.org/wiki/Ctags">Ctags</a> 在同一代码文件自动完成javasscript&amp;html&amp;css,这显然很方便.</p>
+</div>
+</div>
+<div id="outline-container-headline-8" class="outline-3">
+<h3 id="headline-8">
+Emacs 会永存
+</h3>
+<div id="outline-text-headline-8" class="outline-text-3">
+<p><a href="https://forum.sublimetext.com/t/project-alive/16005">个人开发者会丧失兴趣</a>, 公司会倒闭. 但自由软件基金会将一直存在下去.</p>
+<p>
+Emacs 作为其招牌软件也会维护下去, 投资永不会贬值.</p>
+</div>
+</div>
+<div id="outline-container-headline-9" class="outline-3">
+<h3 id="headline-9">
+可以立刻开始工作
+</h3>
+<div id="outline-text-headline-9" class="outline-text-3">
+<p>软件开源, 配置是纯文本, 且资源消耗小, 安装包很小 (命令行版本 30M 左右), 任何环境下都可用.</p>
+<p>
+这在大项目中特别有益, 例如, 某项目需同时编辑 Perl, Java, C, Bash, SQL, 要编辑远程服务器上的代码, 网速不快. Emacs 的优势就体现出来了.</p>
+</div>
+</div>
+<div id="outline-container-headline-10" class="outline-3">
+<h3 id="headline-10">
+一年指的是一年中的空闲时间
+</h3>
+<div id="outline-text-headline-10" class="outline-text-3">
+<p>我利用一年中通勤时间就取得了很大进步.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-11" class="outline-2">
+<h2 id="headline-11">
+实事求是,戒骄戒躁
+</h2>
+<div id="outline-text-headline-11" class="outline-text-2">
+<div id="outline-container-headline-12" class="outline-3">
+<h3 id="headline-12">
+理解软件自由
+</h3>
+<div id="outline-text-headline-12" class="outline-text-3">
+<p>何为软件自由没有比自由软件基金会更权威了. 建议把 <a href="https://www.gnu.org/philosophy/free-sw.zh-cn.html">https://www.gnu.org/philosophy/free-sw.zh-cn.html</a> 反复读, 理解何为四大自由.</p>
+<p>
+一旦真正理解了软件自由, Emacs 就变得非常简单了.</p>
+<p>
+例如, 很多用户习惯让 Emacs 启动时自动从其官方插件仓库 <a href="https://elpa.gnu.org">https://elpa.gnu.org</a> 下载安装插件. 当该网站偶尔下线或者公司的防火墙拦截了对外网站访问时, Emacs 就会启动失败.</p>
+<p>
+这也就是一分钟可以解决的小事, 如果你理解软件自由, <strong>有勇气</strong> 到 <code class="verbatim">~/.emacs.d/elpa/</code> 目录下看一看的话。</p>
+<p>
+一个插件仓库 (repository) 本质上就是一个文件夹, 它有一个含有插件列表名为 <code class="verbatim">archive-contents</code> 的文本文件, 以及一系列插件包. 你完全可以把这些文件下载下来, 在本地硬盘里建立 ELPA 的镜像.</p>
+<p>
+对个人来说, 安装 <a href="https://github.com/redguardtoo/elpa-mirror">elpa-mirror</a> 每年备份一下所有插件就足够了.</p>
+</div>
+</div>
+<div id="outline-container-headline-13" class="outline-3">
+<h3 id="headline-13">
+避免门户之见
+</h3>
+<div id="outline-text-headline-13" class="outline-text-3">
+<p>比如用了 Emacs 就排斥 Vim 的快捷键, 或者反之.</p>
+<p>
+避免门户之见的关键就是实事求是.</p>
+<p>
+以 Emacs 和 Vim 的快捷键为例, 两种快捷键完全可以无缝接合.</p>
+</div>
+</div>
+<div id="outline-container-headline-14" class="outline-3">
+<h3 id="headline-14">
+以科学理性做指导
+</h3>
+<div id="outline-text-headline-14" class="outline-text-3">
+<p>有读者反映我的方法类似于大学里写论文做研究, 事实上这正是我的灵感来源.</p>
+<p>
+Emacs 只是一种技术, 其学习方法和其它技术是通用的.</p>
+<p>
+打好基础, 让自己的知识有 <strong>足够的</strong> 广度和 <strong>适当的</strong> 深度, 对新手是最重要的. 否则会在一些琐碎问题上浪费时间.</p>
+<p>
+新手的错误是花大量时间记快捷键, 事实上网上教程列出的初学者&#34;必知&#34;快捷键不是必需的. 很少用到的快捷键直接输入对应命令就行了. 用 <a href="http://www.emacswiki.org/emacs/Smex">smex</a> 或同类插件输入命令很高效.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-15" class="outline-2">
+<h2 id="headline-15">
+具体步骤
+</h2>
+<div id="outline-text-headline-15" class="outline-text-2">
+<p>后文用到的命名惯例,</p>
+<ul>
+<li><code class="verbatim">C</code> 表示按下 Ctrl 键, <code class="verbatim">M</code> 表示按下 Alt 键</li>
+<li><code class="verbatim">M-x my-command</code> 表示同时按下 Alt 和 X, 输入 &#34;my-command&#34;, 然后回车</li>
+</ul>
+<div id="outline-container-headline-16" class="outline-3">
+<h3 id="headline-16">
+无 Linux/Unix 经验新手的快速指南 (可选)
+</h3>
+<div id="outline-text-headline-16" class="outline-text-3">
+<p>建议,</p>
+<ul>
+<li>不安装任何第三方插件</li>
+<li>掌握shell基本知识, 什么是环境变量, 什么是 stdin, stdout, pipe. 这些知识可以帮助用户理解 Emacs 如何和其他软件交互</li>
+<li>读Emacs官方教程(快捷键 <code class="verbatim">M-x help-with-tutorial-spec-language</code>), 学会基本的文本操作 (大概十几个快捷键)</li>
+<li>使用 Emacs 自带的 <a href="http://www.orgmode.org">org-mode</a>, org-mode 关键是用起来, 只要记住按 TAB 键是展开内容就可以了, 其他都不用学</li>
+</ul>
+<p>Org-mode 是Emacs内置的插件.用来写文档,记笔记,管理个人工作事务等等. 有很多第三方插件拓展. 不是三言两语可以概况其功能的. 它最受欢迎的的特性是支持名为 <a href="https://en.wikipedia.org/wiki/Getting_Things_Done">GTD (Getting Things Done)</a> 的工作流. 很多人认为 org-mode 是最好的GTD软件. 新手以此入门上手很快, 可以立刻提高自己的生产力.</p>
+</div>
+</div>
+<div id="outline-container-headline-17" class="outline-3">
+<h3 id="headline-17">
+读官方教程
+</h3>
+<div id="outline-text-headline-17" class="outline-text-3">
+<p>按以下步骤阅读教程:</p>
+<ul>
+<li>不安装任何插件打开 Emacs, 比如在 Shell 中运行命令 <code class="verbatim">emacs -nw -Q</code></li>
+<li><code class="verbatim">M-x help-with-tutorial</code> 打开教程</li>
+</ul>
+<p>完成该教程仅需半小时.</p>
+<p>
+即使不用 Emacs 默认快捷键, 这步也是必须的, 不要跳过!</p>
+<p>
+最起码要知道以下命令,</p>
+<ul>
+<li><code class="verbatim">M-x describe-variable</code>, 快捷键 <code class="verbatim">C-h v</code>, 查看变量的文档</li>
+<li><code class="verbatim">M-x describe-function</code>, 快捷键 <code class="verbatim">C-h f</code>, 查看命令的文档</li>
+<li><code class="verbatim">M-x describe-key</code>, 快捷键 <code class="verbatim">C-h k</code>, 查看快捷键的文档</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-18" class="outline-3">
+<h3 id="headline-18">
+以实际问题作为切入点
+</h3>
+<div id="outline-text-headline-18" class="outline-text-3">
+<p>努力能很快得到回报, 会越学越有乐趣, 进入正反馈.</p>
+<p>
+例如, 我急需 GTD 的工具, 而 Emacs 的 <a href="http://orgmode.org/">Org-mode</a> 是同类软件中最好的. 用 Org-mode 节省了时间后, 我对 Emacs 兴趣高涨.</p>
+<p>
+反面例子是啃Lisp教程开始Emacs之旅, 坚持下来的人寥寥无几.</p>
+</div>
+</div>
+<div id="outline-container-headline-19" class="outline-3">
+<h3 id="headline-19">
+待解决的问题设定优先度
+</h3>
+<div id="outline-text-headline-19" class="outline-text-3">
+<p>关键在于理性地考虑你最迫切需要解决的一个问题.</p>
+<p>
+<strong>以这个问题作为出发点</strong>, 除此之外都可以妥协.</p>
+<p>
+虽然 Emacs 无所不能, 但是饭也要一口一口吃. 有时退一步等于进两步.</p>
+<p>
+例如, 我一直以为 Emacs 的中文显示很完美, 搞不懂为什么有人在字体配置上花那么多时间.</p>
+<p>
+在读者反馈后, 才明白原来我一直在终端下使用Emacs, 终端软件可以完美显示中文字体, 所以就没 Emacs 什么事了. 需要配置字体的人用的是图形界面 Emacs.</p>
+<p>
+当初只在终端下使用 Emacs 是因为需连接到远程服务器. 我认为这是重点. 甚至为此放弃了漂亮的配色主题 (后来发觉此牺牲毫无必要). 塞翁失马, 由此也避免了图形界面版本的所有问题.</p>
+</div>
+</div>
+<div id="outline-container-headline-20" class="outline-3">
+<h3 id="headline-20">
+站在巨人的肩膀上
+</h3>
+<div id="outline-text-headline-20" class="outline-text-3">
+<p>刚开始我也是抱着玩的心态, 到处拷贝别人代码到我的配置中去. 浪费了很多时间.</p>
+<p>
+后来我停止折腾, 安心用 <a href="http://www.sanityinc.com/">Steve Purcell</a> 的 <a href="https://github.com/purcell/emacs.d">Emacs 配置</a> , 从此走上正轨.</p>
+<p>
+初学者开始阶段应以模仿为主. 这点是本文核心思想.</p>
+<p>
+之前提过, 我选择不背快捷键,而用smex优化输入命令的效率.这也是因为我使用他人成熟配置后学会的.</p>
+<p>
+考虑一下:</p>
+<ul>
+<li>我就是这么做的, <a href="https://github.com/purcell/emacs.d/issues?direction=asc&amp;page=1&amp;sort=created&amp;state=closed">看看一年内我给他报了多少 bug</a></li>
+<li>要超越高手就必须了解其高度, 你需要一年时间去模仿去学习</li>
+<li>基于 Purcell 的配置给他报 bug (甚至是提交patch), 你就是考虑到了他未考虑到的问题, 至少在这点就超过他了, 日积月累就很可观了</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-21" class="outline-3">
+<h3 id="headline-21">
+报 bug
+</h3>
+<div id="outline-text-headline-21" class="outline-text-3">
+<p>像武侠小说那样拜高手为师是白日做梦. 唯一能让高手指点的办法是先付出. 最可靠的付出就是报 bug.</p>
+<p>
+我就是这样 <a href="https://github.com/capitaomorte/yasnippet/issues/256">学到一些高级 Lisp 技巧的</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-22" class="outline-3">
+<h3 id="headline-22">
+持续改进
+</h3>
+<div id="outline-text-headline-22" class="outline-text-3">
+<p>要在高手已有工作上改善. 即使是微小的改善, 如果坚持一段时间, 就是巨大的进步了, 你就可以在这一点上笑傲江湖.</p>
+<p>
+再找出另一高手需要改善的地方, 使用同样的方法.</p>
+<p>
+例如, 默认在 Emacs 中移动子窗口焦点不是很方便. 需按 <code class="verbatim">C-x o</code> 多次. 我找到了 emacs 插件 <a href="https://github.com/dimitri/switch-window">switch-window</a>, 只要按 <code class="verbatim">C-x o</code> 一次, 会有提示子窗口编号, 接下来输入编号就可以了. 但还有改善空间, 我又找到了 <a href="https://github.com/nschum/window-numbering.el">window-number.el</a>, 只要按 <code class="verbatim">M-NUM</code> 一次. 这个方法已几乎完美, 但 Alt 键还是有点慢, 我结合 <a href="https://github.com/emacs-evil/evil">evil</a> 和 <a href="https://github.com/cofi/evil-leader">evil-leader</a>, 可以按逗号和数字飞速切换子窗口了. 我的这个点子后来被<a href="https://github.com/syl20bnr/spacemacs/commit/0931e4abece1307def3a024f4f2717359fb8d6e8">spacemacs采用</a>.现在已是大多数Emacs用户的标准配置了.</p>
+</div>
+</div>
+<div id="outline-container-headline-23" class="outline-3">
+<h3 id="headline-23">
+加入社区更上一层楼
+</h3>
+<div id="outline-text-headline-23" class="outline-text-3">
+<p>最重要的是专一. 不去定阅和 Emacs 无关的话题.</p>
+<div id="outline-container-headline-24" class="outline-4">
+<h4 id="headline-24">
+Reddit
+</h4>
+<div id="outline-text-headline-24" class="outline-text-4">
+<p><a href="http://www.reddit.com/r/emacs/">Reddit</a> 是最好的.</p>
+</div>
+</div>
+<div id="outline-container-headline-25" class="outline-4">
+<h4 id="headline-25">
+GitHub 是高手云集的地方
+</h4>
+<div id="outline-text-headline-25" class="outline-text-4">
+<p>GitHub 的版本控制服务很好. 现在它的社区化倾向越来越强了, 我喜欢.</p>
+<p>
+例如, 可以看一下 <a href="https://github.com/search?p=1&amp;q=stars%3A%3E20+extension%3Ael+language%3Aelisp&amp;ref=searchresults&amp;type=Repositories">https://github.com/search?p=1&amp;q=stars%3A%3E20+extension%3Ael+language%3Aelisp&amp;ref=searchresults&amp;type=Repositories</a> 上最酷的 Emacs 插件.</p>
+</div>
+</div>
+<div id="outline-container-headline-26" class="outline-4">
+<h4 id="headline-26">
+博客
+</h4>
+<div id="outline-text-headline-26" class="outline-text-4">
+<p>最好的是 <a href="https://planet.emacslife.com/">Planet EmacsLife</a>, 多个 Emacs 博客的集合.</p>
+</div>
+</div>
+<div id="outline-container-headline-27" class="outline-4">
+<h4 id="headline-27">
+在 Stack Overflow 上搜索相关讨论
+</h4>
+<div id="outline-text-headline-27" class="outline-text-4">
+<p>google &#34;emacs-related-keywords site:stackoverflow.com&#34;</p>
+<p>
+我会定期搜索, 同一帖子反复精读. 因为讨论质量很高.</p>
+<p>
+<a href="http://emacs.stackexchange.com">http://emacs.stackexchange.com</a> 是 Stack Overflow 旗下专门的 Emacs 问答社区.</p>
+</div>
+</div>
+<div id="outline-container-headline-28" class="outline-4">
+<h4 id="headline-28">
+到 Youtube 上看 emacs 相关的视频
+</h4>
+<div id="outline-text-headline-28" class="outline-text-4">
+<p>我就是看了 <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=oJTwQvgfgMM">Google Tech Talks 上这个 Org-mode 作者的介绍</a> 而爱上 org-mode.</p>
+<p>
+不过 Youtube 搜索结果是最佳匹配的. 由于相关视频并不多, 如按照默认算法, 每次总是那几个. 所以如果关注最新进展, 搜索应以时间排序.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-29" class="outline-2">
+<h2 id="headline-29">
+读书最有效
+</h2>
+<div id="outline-text-headline-29" class="outline-text-2">
+<div id="outline-container-headline-30" class="outline-3">
+<h3 id="headline-30">
+EmacsWiki
+</h3>
+<div id="outline-text-headline-30" class="outline-text-3">
+<p><a href="http://www.emacswiki.org/">EmacsWiki</a> 是社区维护的文档.</p>
+<p>
+有人抱怨文档太乱, 质量参差不齐. 前者我有同感. 后者不赞同. EmacsWiki 文档质量相当高, 因其是 <strong>唯一的</strong> 半官方文档. 忍受其乱中有序的现状吧.</p>
+<p>
+最佳阅读方法是, 选定一特定主题, 从头读到尾. 这样对最新进展都了解了. 是否要采用其建议另当别论.</p>
+</div>
+</div>
+<div id="outline-container-headline-31" class="outline-3">
+<h3 id="headline-31">
+Emacs Lisp 书籍推荐 (可选)
+</h3>
+<div id="outline-text-headline-31" class="outline-text-3">
+<p>Bob Glickstein 的 <a href="http://www.amazon.com/Writing-GNU-Emacs-Extensions-Glickstein/dp/1565922611">Writing GNU Emacs Extensions</a> 是最好的.</p>
+<p>
+生动, 例子丰富. 作者用心安排了书的结构. 例如, 很早就介绍了 defadvice 的用法. defadvice 是 Emacs Lisp 的精华.</p>
+<p>
+Xah Lee 提供 <a href="http://xahlee.info/emacs/emacs/buy_xah_emacs_tutorial.html">付费 Lisp 教程</a> 也相当不错.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-32" class="outline-2">
+<h2 id="headline-32">
+知识管理
+</h2>
+<div id="outline-text-headline-32" class="outline-text-2">
+<p>不要低估长时间的累积效应.</p>
+<p>
+例如 Steve Purcell 的配置. 2000 年开始维护,其质量不用我多费口舌.</p>
+<p>
+知识积累的越多, 这些知识之间的联系就会越多. 联系增长的速度是以指数的方式增长的. 如从头来过, 意味着积累知识的书面记录丢失了. 损失是很大的. 基数已归零, 增长的量又能有多少.</p>
+<p>
+这也是后文谈到为什么要用工具保存配置和知识的原因.</p>
+<div id="outline-container-headline-33" class="outline-3">
+<h3 id="headline-33">
+配置纳入 GitHub 的版本控制
+</h3>
+<div id="outline-text-headline-33" class="outline-text-3">
+<p>我的配置见 <a href="https://github.com/redguardtoo/emacs.d">https://github.com/redguardtoo/emacs.d</a>.</p>
+<p>
+版本控制可以认为是一个集中式的知识管理, 任何时刻任何地点对配置的修改都要及时上传合并 (merge). 这是积累能力的关键.</p>
+<p>
+共享实际也是一种利己行为, 很多人用我的配置等于帮我测试.</p>
+</div>
+</div>
+<div id="outline-container-headline-34" class="outline-3">
+<h3 id="headline-34">
+将相关资料备份
+</h3>
+<div id="outline-text-headline-34" class="outline-text-3">
+<p>我还写了许多博客文章. 这些文章都存在 org 格式的文件中. 最后发布的静态博客也纳入版本控制, 参见 <a href="http://github.com/redguardtoo/redguardtoo.github.io">http://github.com/redguardtoo/redguardtoo.github.io</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-35" class="outline-2">
+<h2 id="headline-35">
+第三方插件推荐
+</h2>
+<div id="outline-text-headline-35" class="outline-text-2">
+<p>建议对少数优秀插件深入研究.阅读甚至编写相关代码.</p>
+<p>
+以下是清单：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>说明</th>
+<th>同类插件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/emacs-evil/evil">Evil</a></td>
+<td>将 Emacs 变为 Vim</td>
+<td>没有</td>
+</tr>
+<tr>
+<td><a href="http://orgmode.org/">Org</a></td>
+<td>Org-mode, 全能的笔记和GTD工具</td>
+<td>没有</td>
+</tr>
+<tr>
+<td><a href="https://github.com/company-mode/company-mode">company-mode</a></td>
+<td>自动完成输入, 支持各种语言和后端</td>
+<td>auto-complete</td>
+</tr>
+<tr>
+<td><a href="https://github.com/capitaomorte/yasnippet">yasnippet</a></td>
+<td>强大的文本模板输入工具</td>
+<td>没有</td>
+</tr>
+<tr>
+<td><a href="http://www.emacswiki.org/emacs/FlyMake">flymake</a></td>
+<td>对不同语言做语法检查</td>
+<td>flycheck</td>
+</tr>
+<tr>
+<td><a href="https://github.com/abo-abo/swiper/blob/master/ivy.el">ivy</a> or <a href="https://github.com/emacs-helm/helm">helm</a></td>
+<td>自动完成, 在其上有插件完成具体功能</td>
+<td>ido</td>
+</tr>
+<tr>
+<td><a href="https://github.com/magit/magit">magit</a></td>
+<td>玩转 git</td>
+<td>没有</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-headline-36" class="outline-2">
+<h2 id="headline-36">
+Emacs 是一种生活方式
+</h2>
+<div id="outline-text-headline-36" class="outline-text-2">
+<p>Geek 其他方面也很牛. 举一反三你收获会很多.</p>
+<p>
+<a href="http://sachachua.com/blog/">Sacha Chua</a> 就是这样的女孩, 这是她的 <a href="http://www.youtube.com/watch?v=eoyi2vrsWow">Youtube 录像</a>. 她学习的方式是 <a href="http://sachachua.com/blog/2012/07/transcript-emacs-chat-john-wiegley/">让 Emacs 自动将手册语音合成</a>, 这样她在房间里走来走去的时候也可以听文档了.</p>
+<p>
+我现在有意识地整理高手名单, 观察他们 <strong>除了 Emacs 外</strong> 用什么工具.</p>
+<p>
+例如, <a href="https://github.com/mooz/js2-mode">js2-mode</a> 的维护者 Masafumi Oyamada (网名 mooz) 也开发了 <a href="https://github.com/mooz/keysnail">keysnail</a> 和 <a href="https://github.com/mooz/percol">percol</a>. 特别是 percol, 使我命令行效率提高了 10 倍.</p>
+<p>
+这个阶段可称之为 <strong>心中有剑, 手中无剑</strong>.</p>
+<p>
+是否用 Emacs 不重要了, 重要的是随心所欲. 例如, 很多人争论哪个编辑器自带的文件管理较好. 我 <a href="http://blog.binchen.org/posts/how-to-do-the-file-navigation-efficiently.html">从 mooz 那学到大招后</a>, 就跳出五行外, 不在三界中了.</p>
+</div>
+</div>
+<div id="outline-container-headline-37" class="outline-2">
+<h2 id="headline-37">
+付之于行动
+</h2>
+<div id="outline-text-headline-37" class="outline-text-2">
+<p>如何行动因人而异.</p>
+<p>
+关键是真正理解本文要点.</p>
+<p>
+例如，你是否意识到之前的章节意味着以下行动:</p>
+<ul>
+<li>找出所有插件的作者</li>
+<li>在 Twitter/GitHub/Reddit 上跟随他们</li>
+<li>通读他们已发表的贴子</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-38" class="outline-2">
+<h2 id="headline-38">
+使用 Evil
+</h2>
+<div id="outline-text-headline-38" class="outline-text-2">
+<p>Evil 是 <a href="https://github.com/emacs-evil/evil">Vim 模拟器</a>.</p>
+<p>
+如果你不熟悉 Vim, 在命令行里运行 <code class="verbatim">vimtutor</code> 或者安装 Emacs 插件 <a href="https://github.com/syl20bnr/evil-tutor">evil-tutor</a> 学习 Vim 基本命令.</p>
+<p>
+该教程大概需要半小时. 关于 Vim 的基本操作的讨论就到此为止了. 网上教程汗牛充栋, 你可自行阅读.</p>
+<p>
+这里展示一些高级技巧 (有些技巧是我独创的).</p>
+<div id="outline-container-headline-39" class="outline-3">
+<h3 id="headline-39">
+Text Object
+</h3>
+<div id="outline-text-headline-39" class="outline-text-3">
+<p>了解 <a href="http://vimdoc.sourceforge.net/htmldoc/motion.html">Vim Text Object</a> 的概念.</p>
+<p>
+Evil 的强大之处就是你可以用 Emacs Lisp 来自定义 <code class="verbatim">Text Object</code>. 自由的 Lisp 使得你完全超越 Vim 的 &#34;约定俗成&#34;.</p>
+<p>
+比如在操作自定义的 Text Object 时, 当前焦点完全可以在 Text Object 之外. 这是 Lisp 写的 <a href="http://blog.binchen.org/posts/evil-text-object-to-select-nearby-file-path.html">寻找附近的文件路径或者 URL.</a> 用 Vim Script 写个类似的脚本难很多. 即使你用了 <a href="https://github.com/kana/vim-textobj-user">vim-textobj-user</a> 之类的插件辅助开发也没用的.</p>
+<p>
+而且 Lisp 代码完全可以调用 <strong>任何</strong> 的第三方插件或者 Emacs 的不计其数的 API. 比如 Evil 中操作 <code class="verbatim">Text Object</code> 的过程中可以问用户问题, 访问网站等等.</p>
+<p>
+实现这些额外功能对 Vim 来说很难.</p>
+</div>
+</div>
+<div id="outline-container-headline-40" class="outline-3">
+<h3 id="headline-40">
+Leader 键
+</h3>
+<div id="outline-text-headline-40" class="outline-text-3">
+<p>Vim 自带 Leader 键的功能, 你先按了 Leader 键 (很多人定义为空格键) 后, 再按其他键 (比如 <code class="verbatim">kk</code>) 会触发你自定义的命令. 本质就是给你更多的快捷键.</p>
+<p>
+在 Emacs 中需要使用第三方插件如 <a href="https://github.com/noctuid/general.el">general.el</a> 来实现此功能.</p>
+<p>
+某些 Vim 用户不能迁移到 Evil 的原因就是自定义了太多使用 Ctrl 键的快捷键, 和 Emacs 默认的快捷键有冲突.</p>
+<p>
+这些用户没有意识到的是借鉴 Emacs 的思想, 他们在 Vim 和 Emacs 的效率可以有巨大的提升. 我只提三点供参考:</p>
+<p>
+第一, 充分利用 Leader 快捷键. 我看过大多数 Vim 高手在 GitHub 上的设置, 他们一般定义 <strong>10 到 20 个</strong> Leader 相关的快捷键.</p>
+<p>
+我定义了 <strong>300 个</strong> 相关的快捷键.</p>
+<p>
+典型 Evil 用户 (如 Spacemacs 用户) 大概有 <strong>3000 到 10000 个</strong> 相关快捷键可用.</p>
+<p>
+第二, Vim 用户的另一个问题是快捷键没有优化. 常用命令的快捷键应按. 何为常用命令须来自 <strong>真实数据</strong>.</p>
+<p>
+这是我用 Emacs 的插件 <a href="https://github.com/dacap/keyfreq">keyfreq</a> 测试月的数据 (我的 Leader 键定义为逗号):</p>
+<table>
+<thead>
+<tr>
+<th class="align-right">Times</th>
+<th>Percentage</th>
+<th>Command</th>
+<th>Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-right">4967</td>
+<td>12.00%</td>
+<td>evilmi-jump-items</td>
+<td>%</td>
+</tr>
+<tr>
+<td class="align-right">2892</td>
+<td>6.99%</td>
+<td>compile</td>
+<td>, o o</td>
+</tr>
+<tr>
+<td class="align-right">2178</td>
+<td>5.26%</td>
+<td>find-file-in-project-by-selected</td>
+<td>, k k</td>
+</tr>
+<tr>
+<td class="align-right">1953</td>
+<td>4.72%</td>
+<td>copy-to-x-clipboard</td>
+<td>, a a</td>
+</tr>
+<tr>
+<td class="align-right">1566</td>
+<td>3.78%</td>
+<td>paste-from-x-clipboard</td>
+<td>, z z</td>
+</tr>
+<tr>
+<td class="align-right">1227</td>
+<td>2.96%</td>
+<td>er/expand-region</td>
+<td>, x x</td>
+</tr>
+<tr>
+<td class="align-right">897</td>
+<td>2.17%</td>
+<td>evil-repeat</td>
+<td>.</td>
+</tr>
+<tr>
+<td class="align-right">866</td>
+<td>2.09%</td>
+<td>ido-find-file</td>
+<td>, x f, C-x C-f</td>
+</tr>
+<tr>
+<td class="align-right">819</td>
+<td>1.98%</td>
+<td>toggle-full-window</td>
+<td>, f f</td>
+</tr>
+<tr>
+<td class="align-right">815</td>
+<td>1.97%</td>
+<td>etags-select-find-tag-at-point</td>
+<td>C-], , h t</td>
+</tr>
+<tr>
+<td class="align-right">721</td>
+<td>1.74%</td>
+<td>back-to-previous-buffer</td>
+<td>, b b</td>
+</tr>
+<tr>
+<td class="align-right">682</td>
+<td>1.65%</td>
+<td>split-window-vertically</td>
+<td>, x 2</td>
+</tr>
+<tr>
+<td class="align-right">539</td>
+<td>1.30%</td>
+<td>find-function</td>
+<td>, h f, C-h C-f</td>
+</tr>
+<tr>
+<td class="align-right">494</td>
+<td>1.19%</td>
+<td>counsel-recentf-goto</td>
+<td>, r r</td>
+</tr>
+<tr>
+<td class="align-right">397</td>
+<td>0.96%</td>
+<td>counsel-git-grep</td>
+<td>, g g</td>
+</tr>
+<tr>
+<td class="align-right">376</td>
+<td>0.91%</td>
+<td>delete-other-windows</td>
+<td>, x 1, C-x 1</td>
+</tr>
+<tr>
+<td class="align-right">372</td>
+<td>0.90%</td>
+<td>evilnc-comment-or-uncomment-lines</td>
+<td>, c i</td>
+</tr>
+<tr>
+<td class="align-right">351</td>
+<td>0.85%</td>
+<td>eval-expression</td>
+<td>, e e, M-:</td>
+</tr>
+<tr>
+<td class="align-right">326</td>
+<td>0.79%</td>
+<td>evilmi-select-items</td>
+<td>, s i</td>
+</tr>
+<tr>
+<td class="align-right">320</td>
+<td>0.77%</td>
+<td>paredit-doublequote</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">307</td>
+<td>0.74%</td>
+<td>evil-filepath-outer-text-object</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">300</td>
+<td>0.72%</td>
+<td>steve-ido-choose-from-recentf</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">295</td>
+<td>0.71%</td>
+<td>split-window-horizontally</td>
+<td>, x 3</td>
+</tr>
+<tr>
+<td class="align-right">283</td>
+<td>0.68%</td>
+<td>git-add-current-file</td>
+<td>, x v a</td>
+</tr>
+<tr>
+<td class="align-right">279</td>
+<td>0.67%</td>
+<td>winner-undo</td>
+<td>, x u, , s u, C-x 4 u</td>
+</tr>
+<tr>
+<td class="align-right">278</td>
+<td>0.67%</td>
+<td>describe-function</td>
+<td>, h d, C-h f</td>
+</tr>
+<tr>
+<td class="align-right">278</td>
+<td>0.67%</td>
+<td>evil-goto-mark-line</td>
+<td>&#39;</td>
+</tr>
+<tr>
+<td class="align-right">269</td>
+<td>0.65%</td>
+<td>ido-kill-buffer</td>
+<td>, x k, C-x k</td>
+</tr>
+<tr>
+<td class="align-right">254</td>
+<td>0.61%</td>
+<td>evil-goto-definition</td>
+<td>g d</td>
+</tr>
+<tr>
+<td class="align-right">253</td>
+<td>0.61%</td>
+<td>pop-tag-mark</td>
+<td>M-*</td>
+</tr>
+<tr>
+<td class="align-right">251</td>
+<td>0.61%</td>
+<td>git-messenger:popup-message</td>
+<td>, x v b, C-x v p</td>
+</tr>
+<tr>
+<td class="align-right">246</td>
+<td>0.59%</td>
+<td>my-goto-next-hunk</td>
+<td>, n n</td>
+</tr>
+<tr>
+<td class="align-right">237</td>
+<td>0.57%</td>
+<td>evilnc-comment-operator</td>
+<td>, ,</td>
+</tr>
+<tr>
+<td class="align-right">235</td>
+<td>0.57%</td>
+<td>flyspell-goto-next-error</td>
+<td>, f e, C-,</td>
+</tr>
+<tr>
+<td class="align-right">214</td>
+<td>0.52%</td>
+<td>evil-exit-emacs-state</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">212</td>
+<td>0.51%</td>
+<td>browse-kill-ring-forward</td>
+<td></td>
+</tr>
+<tr>
+<td class="align-right">210</td>
+<td>0.51%</td>
+<td>flyspell-buffer</td>
+<td>, f b</td>
+</tr>
+</tbody>
+</table>
+<p>
+第三, 由于 Lisp 的强大 Leader 键的使用在 Emacs 中有无限可能</p>
+<ul>
+<li>使用 <a href="https://github.com/noctuid/general.el">general.el</a> 定义多个 Leader 键</li>
+<li>可在切换文件时切换 Leader 键等等.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-41" class="outline-3">
+<h3 id="headline-41">
+Evil 兼容 Emacs 原生插件
+</h3>
+<div id="outline-text-headline-41" class="outline-text-3">
+<p>如果你真正理解了我前面的章节, 这就根本不是问题.</p>
+<p>
+之前我提到了要保持头脑开放, 要尽可能抄高手的代码, 积极地报 bug 等观点. 现在让我演示一下如何应用.</p>
+<p>
+一开始我每装一个新的插件, 都要辛辛苦苦设置 evil 的快捷键.</p>
+<p>
+有一天我问自己, Lisp 那么强大, Evil 那么优秀, 也许有更方便简洁的方案?许多人说不行不一定是真理, 只有实际调查过的人才有发言权.</p>
+<p>
+我也没有自己钻研 Evil 的代码, 取而代之的是 <a href="https://github.com/emacs-evil/evil/issues/511">给 Evil 的开发者 Frank Fischer 报了个 bug</a>, 他给我了一个方案, 根本不需要重设快捷键.</p>
+<p>
+这是这个方案在 <a href="https://github.com/emacsmirror/git-timemachine">git-timemachine 中</a> 的 <a href="http://emacs.stackexchange.com/questions/9842/disable-evil-mode-when-git-timemachine-mode-is-activated">完美应用</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-42" class="outline-3">
+<h3 id="headline-42">
+Evil 专用的插件介绍
+</h3>
+<div id="outline-text-headline-42" class="outline-text-3">
+<p>我选择 <a href="http://melpa.org">MELPA</a> 上最流行的5个Evil插件介绍一下, 类似优秀插件还有很多.</p>
+<p>
+要点不在于你装了多少插件, 而在于理解由于 Lisp 的强大和 Emacs 的自由, 这些插件功能更多, 更容易拓展.</p>
+<div id="outline-container-headline-43" class="outline-4">
+<h4 id="headline-43">
+<a href="https://github.com/timcharper/evil-surround">evil-surround</a>
+</h4>
+<div id="outline-text-headline-43" class="outline-text-4">
+<p>对应 <a href="https://github.com/tpope/vim-surround">vim-surround</a>.</p>
+<p>
+我通常用 <a href="https://github.com/magnars/expand-region.el/blob/master/expand-region-core.el">expand-region 选中一段文本, 然后按 <code class="verbatim">S</code> 或者 <code class="verbatim">M-x evil-surround-region</code> , 再按任意字符 (比如双引号) 就可以在文本</a> 首尾两端附加该字符.</p>
+<p>
+当然它也支持修改删除操作.</p>
+<p>
+之前提到的 text object 也完美支持.</p>
+<p>
+懂 Lisp 的话可以修改 <code class="verbatim">evil-surround-operator-alist</code> 自己定制操作.</p>
+</div>
+</div>
+<div id="outline-container-headline-44" class="outline-4">
+<h4 id="headline-44">
+<a href="https://github.com/redguardtoo/evil-nerd-commenter">evil-nerd-commenter</a>
+</h4>
+<div id="outline-text-headline-44" class="outline-text-4">
+<p>对应 <a href="https://github.com/scrooloose/nerdcommenter">vim-nerd-commenter</a>, 这是我写的, 功能更强大.</p>
+<p>
+你可以 <code class="verbatim">M-x 5 evilnc-comment-or-uncomment-lines</code> 快速注释当前 5 行或者取消注释当前 5 行.</p>
+<p>
+你也可以选中一个区域 <code class="verbatim">M-x evilnc-comment-or-uncomment-lines</code></p>
+<p>
+由于 Emacs 的强大, 默认就支持所有世界上已知的语言, 而核心代码也就是 1 行而已. Vim 插件对应的功能代码要有 400 行.</p>
+<p>
+如果你在 <a href="http://orgmode.org/">org-mode 格式的单一文件中</a> 中混杂多种语言的话, 它也能智能识别.</p>
+<p>
+这个功能在 Vim 中基本不可能实现.</p>
+</div>
+</div>
+<div id="outline-container-headline-45" class="outline-4">
+<h4 id="headline-45">
+<a href="https://github.com/redguardtoo/evil-matchit">evil-matchit</a>
+</h4>
+<div id="outline-text-headline-45" class="outline-text-4">
+<p>对应 <a href="https://github.com/tmhedberg/matchit">vim-matchit</a>. 又是我写的. 自然功能更强大.</p>
+<p>
+本质就是你当前焦点在文件的某个位置 A, 你按 <code class="verbatim">%</code> 或者 <code class="verbatim">M-x evilmi-jump-items</code>, 焦点移到位置 B, 你再按同样的键, 又回到了位置 A.</p>
+<p>
+比如在一个 HTML 文件中, 你就可以在 <code class="verbatim">&lt;body&gt;</code> 和 <code class="verbatim">&lt;/body&gt;</code> 间跳来跳去. 其他各种编程语言都支持.</p>
+<p>
+Vim 对应的代码我读过, 限制比较多, 比如你一定要先定义一对正则表达式来匹配 A 和 B 的位置. 这种限制在某些语言如 Python 中就会比较麻烦.</p>
+<p>
+Emacs 的实现就完全体现了 Emacs 的自由精神, 我建立了一个动态查询的矩阵, 矩阵的元素就是函数对象而已. 用户可以在运行时替换这些函数对象, 所以怎么跳转, 跳到哪都是完全自由的.</p>
+<p>
+所以 python 的支持就毫无问题. 想支持更多的语言或者对我的实现不满意, 在 <code class="verbatim">.emacs</code> 中写几行 Lisp 代码就可以了.</p>
+</div>
+</div>
+<div id="outline-container-headline-46" class="outline-4">
+<h4 id="headline-46">
+<a href="https://github.com/syl20bnr/evil-escape">evil-escape</a>
+</h4>
+<div id="outline-text-headline-46" class="outline-text-4">
+<p>按自定义快捷键退出当前的各种状态, 相当于 Vim 中的 <code class="verbatim">ESC</code> 或者 Emacs 中的 <code class="verbatim">C-g</code>.</p>
+<p>
+我定义自定义快捷键为 <code class="verbatim">kj</code>. 如果你想效率高的话, 取消的默认快捷键就太慢了.</p>
+<p>
+让我给你举个例子说明什么叫效率高. 我移动手指去按 ESC 键需要 0.5 秒.</p>
+<p>
+Sublime Text 默认的文本搜索要比我的 Emacs 设置慢 40 倍. 如果 Sublime Text 搜索需要 40 秒, 那么节省取消键的 0.5 秒毫无意义.</p>
+<p>
+Emacs 只要 1 秒完成搜索, 所以取消键从 0.5 秒减少到 0.1 秒的感觉就完全不一样.</p>
+</div>
+</div>
+<div id="outline-container-headline-47" class="outline-4">
+<h4 id="headline-47">
+<a href="https://github.com/bling/evil-visualstar">evil-visualstar</a>
+</h4>
+<div id="outline-text-headline-47" class="outline-text-4">
+<p>对应 <a href="https://github.com/bronson/vim-visual-star-search">vim-visual-star-search.</a></p>
+<p>
+选择一段文本, 按 <code class="verbatim">#</code> 或者 <code class="verbatim">*</code> 搜索.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-48" class="outline-3">
+<h3 id="headline-48">
+在 Shell 和 Interactive Interpreter 中使用 Evil
+</h3>
+<div id="outline-text-headline-48" class="outline-text-3">
+<p>可以 <code class="verbatim">M-x shell</code> 或者 <code class="verbatim">M-x term</code> 进入 Shell.</p>
+<p>
+传统上大家都在 Shell 中用 Emacs 的默认快捷键.</p>
+<p>
+不过仔细计算过后我发现 Vim 的快捷键更有效率.</p>
+<p>
+Shell 的作用无非就是运行命令或脚本代码, 输出运算结果.</p>
+<p>
+当我们在 Emacs 中运行 Shell 的时候, 命令和代码往往是从别的地方拷贝过来的.</p>
+<p>
+粘贴命令和代码到 Shell 中, 分析/过滤/搜索输出的结果, 都是 Vim 的快捷键更方便.</p>
+<p>
+我之前提到的所有关于 Evil 的技巧和插件都适用于此.</p>
+<p>
+Interactive Interpreter 和 Shell 没有本质区别, 无非就是解释器支持的语言不一样罢了. 比如 <a href="https://github.com/nonsequitur/inf-ruby">inf-ruby</a> 支持 Ruby.</p>
+<p>
+可以按 <code class="verbatim">C-z</code> 切换回纯 Emacs 快捷键.</p>
+</div>
+</div>
+<div id="outline-container-headline-49" class="outline-3">
+<h3 id="headline-49">
+Evil 的小结
+</h3>
+<div id="outline-text-headline-49" class="outline-text-3">
+<p>对 Vim 用户来说, Evil 不仅提供了 Vim 的完美模拟, 还开辟了用 Lisp 拓展 Vim 的新世界.</p>
+<p>
+对 Emacs 用户来说, Evil 也不仅仅是提供了新的快捷键, 而是提供了更多的可编程的数据结构和范式 (如 text object).</p>
+<p>
+关键是发挥你的创造力, 自由地接合 Emacs 和 Vim 的长处, 发明新技术和新技巧. 这种机会目前是很多的, 赶快行动起来吧.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-50" class="outline-2">
+<h2 id="headline-50">
+答疑
+</h2>
+<div id="outline-text-headline-50" class="outline-text-2">
+<div id="outline-container-headline-51" class="outline-3">
+<h3 id="headline-51">
+新手怎么开始
+</h3>
+<div id="outline-text-headline-51" class="outline-text-3">
+<p>到 <a href="https://github.com/redguardtoo/emacs.d">https://github.com/redguardtoo/emacs.d</a> 参考 &#34;Install stable version in easiest way&#34; 一节.</p>
+<p>
+只要点击下载两个 zip 文件就可以了, 不需 git 的任何知识.</p>
+</div>
+</div>
+<div id="outline-container-headline-52" class="outline-3">
+<h3 id="headline-52">
+如和理解他人配置
+</h3>
+<div id="outline-text-headline-52" class="outline-text-3">
+<p>除了官方文档外. 看 EmacsWiki 和源代码也很有效. 窍门是源代码文件的头部有使用指南和作者的联系方式.</p>
+</div>
+</div>
+<div id="outline-container-headline-53" class="outline-3">
+<h3 id="headline-53">
+他人配置是否太重量级?
+</h3>
+<div id="outline-text-headline-53" class="outline-text-3">
+<p>成熟配置都是轻量级的, 因为优化过了.</p>
+<p>
+例如有种叫 <a href="http://www.gnu.org/software/emacs/manual/html_node/elisp/Autoload.html">Autoload</a> 的技术. 只有用到模块的某一功能时那个模块才会被载入内存.</p>
+</div>
+</div>
+<div id="outline-container-headline-54" class="outline-3">
+<h3 id="headline-54">
+其他第三方配置
+</h3>
+<div id="outline-text-headline-54" class="outline-text-3">
+<p><a href="https://github.com/search?l=Emacs+Lisp&amp;o=desc&amp;q=emacs&amp;ref=searchresults&amp;s=stars&amp;type=Repositories">搜 github</a></p>
+<p>
+也可用 <a href="https://github.com/redguardtoo/emacs.d">我的配置</a>：</p>
+</div>
+</div>
+<div id="outline-container-headline-55" class="outline-3">
+<h3 id="headline-55">
+该使用 Emacs 的哪个版本
+</h3>
+<div id="outline-text-headline-55" class="outline-text-3">
+<p>目前稳定版是 27.2. 通常不用担心版本问题. 主流的 Linux 发行版会处理.</p>
+</div>
+</div>
+<div id="outline-container-headline-56" class="outline-3">
+<h3 id="headline-56">
+Vi 用户要转阵营吗?
+</h3>
+<div id="outline-text-headline-56" class="outline-text-3">
+<p>嘿嘿, 我也是 Vi 精通后转到 Emacs 的. 就是因为 Emacs 的强大 (例如和 gdb 的完美结合) 以及其脚本语言是 Lisp.</p>
+<p>
+当然 Vi 的多模式编辑和快捷键比 Emacs 要高效得多, 所以最佳方案是 Vi + Emacs.</p>
+<p>
+目前我用 <a href="http://www.emacswiki.org/Evil">Evil</a>, 在 Emacs 下模拟 Vim, 结合两者优点.</p>
+<p>
+现在我是 <strong>神用编辑器之神</strong>!</p>
+</div>
+</div>
+<div id="outline-container-headline-57" class="outline-3">
+<h3 id="headline-57">
+为什么很多 Vi 用户不接受 Evil?
+</h3>
+<div id="outline-text-headline-57" class="outline-text-3">
+<p>因为他们对 Vim 快捷键做了深度配置. Emacs 默认要经常按 Ctrl 键, 如自定义的 Vim 快捷键也用 Ctrl 键, 难免有冲突.</p>
+<p>
+解决办法是大家都使 <a href="http://stackoverflow.com/questions/1764263/what-is-the-leader-in-a-vimrc">Leader</a> (Vim 直接支持, Emacs 需 <a href="https://github.com/cofi/evil-leader">第三方插件</a>).</p>
+<p>
+还有一个办法是待在 Vim 的舒适区里. 如能忍受没有 Org-mode 和 Lisp 的生活, 那么不会有问题.</p>
+<p>
+如犹豫不决, 请重读 &#34;态度决定一切&#34; 一节.</p>
+<p>
+我一旦认识到 Evil 和 Evil-leader 的潜力, 立刻把我 Vim 的设置按 Emacs 的重设了一遍。</p>
+<p>
+更光辉灿烂的例子就是Spacemacs作者了, 无数的 github 星星代表了他的成功.</p>
+</div>
+</div>
+<div id="outline-container-headline-58" class="outline-3">
+<h3 id="headline-58">
+不习惯默认快捷键, 怎么办？
+</h3>
+<div id="outline-text-headline-58" class="outline-text-3">
+<p><strong>忍</strong>!</p>
+<p>
+默认快捷键经过几十年考验相当高效, 未成为高手前还是要忍.</p>
+<p>
+如一定要在用 Windows 快捷键的, 可考虑 <a href="http://xahlee.info/emacs/">ergoemacs</a>.</p>
+</div>
+</div>
+<div id="outline-container-headline-59" class="outline-3">
+<h3 id="headline-59">
+使用第三方配置后有些奇怪的 bug, 怎么改?
+</h3>
+<div id="outline-text-headline-59" class="outline-text-3">
+<p>不要改! 参考上文 <a href="https://github.com/redguardtoo/mastering-emacs-in-one-year-guide/blob/master/guide-zh.org#站在巨人的肩膀上">站在巨人的肩膀上</a> 一章, 你觉得奇怪是因为缺乏经验, 把某些特性误认为是 bug. 请坚持至少一年.</p>
+<p>
+例如, 有人反映右边第 80 列处总有一竖线, 希望能去掉.</p>
+<p>
+实际上这是一特性, 提醒用户一行宽度不要超过第 80 列. 这是 <a href="http://www.emacswiki.org/emacs/EightyColumnRule">每行不要超过 80 列的原因</a>.</p>
+<p>
+我建议第一年应 <strong>尽量理解而不妄加判断</strong>.</p>
+</div>
+</div>
+<div id="outline-container-headline-60" class="outline-3">
+<h3 id="headline-60">
+已更新软件包, 但是没有任何作用, 也没有任何错误信息
+</h3>
+<div id="outline-text-headline-60" class="outline-text-3">
+<p>删除 HOME 目录下的 <code class="verbatim">.emacs</code>, <code class="verbatim">~/.emacs.d/init.el</code> 取代原来的 <code class="verbatim">.emacs</code>.</p>
+</div>
+</div>
+<div id="outline-container-headline-61" class="outline-3">
+<h3 id="headline-61">
+有配置问题
+</h3>
+<div id="outline-text-headline-61" class="outline-text-3">
+<ul>
+<li>读官方教程</li>
+<li>善用网络和我提供的信息</li>
+</ul>
+<p>例如,
+问：在 <code class="verbatim">.emacs.d</code> 中的 <code class="verbatim">init.el</code> 文件起什么作用？
+答：搜索 &#34;emacswiki init.el&#34;.</p>
+</div>
+</div>
+<div id="outline-container-headline-62" class="outline-3">
+<h3 id="headline-62">
+启动报错
+</h3>
+<div id="outline-text-headline-62" class="outline-text-3">
+<p>先确认已装上了 <strong>你需要的</strong> 第三方命令行工具, 这些工具是可选的, 清单见 <a href="https://github.com/redguardtoo/emacs.d">我的 README</a>.</p>
+<p>
+如排除了以上原因, 带上 <code class="verbatim">--debug-init</code> 参数重新启动, 然后将错误信息及环境报告到对应的开发者.</p>
+<p>
+报告时应给出细节. 例如很多读者给我的 bug 都是由于第三方插件版本较新引起的, 我拿到版本号后, 才能下载特定版本以重现 bug. 否则只能靠猜, 来回邮件浪费很多时间.</p>
+</div>
+</div>
+<div id="outline-container-headline-63" class="outline-3">
+<h3 id="headline-63">
+自己的简单配置好控制
+</h3>
+<div id="outline-text-headline-63" class="outline-text-3">
+<p>那你就是走我后悔莫及的老路, 一个人在黑暗中摸索. 开头兴致很高, 但现实是残酷的, 碰到复杂问题解决不了. 只能逃避, 借口 Emacs 太复杂而放弃了.</p>
+<p>
+我最终醒悟过来走上光明大道, 很多走上岐路的人恐怕就没这个觉悟和毅力了.</p>
+<p>
+希望自己掌控坦率地说是一个非技术问题, 因为没有自信心, 所以有补偿心态. 希望通过一种错误的方式来证明自己. 结局无非是恶性循环.</p>
+<p>
+正确地方法是放下身段至少一年 (我已反复强调这一点), 打好基本功, 读书, 虚心学习.</p>
+</div>
+</div>
+<div id="outline-container-headline-64" class="outline-3">
+<h3 id="headline-64">
+自己加的插件无效
+</h3>
+<div id="outline-text-headline-64" class="outline-text-3">
+<p>Emacs 是个开放平台, 其众多插件发布前并不一定有严格的测试. 所以插件之间可能有冲突.</p>
+<p>
+这也是我为什么建议初学者直接使用第三方配置配置的原因, 众多兼容性问题已解决.</p>
+<p>
+没解决的问题最好提交bug报告, 而不是自己去钻研 Lisp.</p>
+</div>
+</div>
+<div id="outline-container-headline-65" class="outline-3">
+<h3 id="headline-65">
+我想用 Windows 版本的 Emacs 而不是 Cygwin 版本, 怎么做?
+</h3>
+<div id="outline-text-headline-65" class="outline-text-3">
+<p>需对命令行操作熟悉. 关键知识点有两个：</p>
+<ol>
+<li>设置 <code class="verbatim">HOME</code> 环境变量, 因为 <code class="verbatim">.emacs.d</code> 中的某些 Lisp 脚本假定 <code class="verbatim">.emacs.d</code> 在 HOME 所指定的路径中.</li>
+<li>Emacs 的某些功能需要使用第三方的命令行工具, 这些工具的路径应该添加至环境变量 <code class="verbatim">PATH</code> 中 (可选, 原因见后面).</li>
+</ol>
+<p>如你不知道如何在 Windows 下添加修改环境变量, 不知道如何安装第三方工具, 建议还是先用 Cygwin 中的 Emacs, 因它已自带工具, 没有的话安装也方便. 且在 Cygwin 下环境变量 HOME 默认已设.</p>
+<p>
+第三方命令行工具清单请参考<a href="https://github.com/redguardtoo/emacs.d">我的配置</a>中的 README.</p>
+</div>
+</div>
+<div id="outline-container-headline-66" class="outline-3">
+<h3 id="headline-66">
+Emacs 在代码跳转和自动完成上和商业 IDE 有差距, 怎么办?
+</h3>
+<div id="outline-text-headline-66" class="outline-text-3">
+<p>现在流行<a href="https://melpa.org/#/?q=lsp">基于LSP的方案</a>.</p>
+<p>
+我通常用 <code class="verbatim">Ctags</code> 作为后端引擎, 因其通吃所有语言. 虽然解析效果差一点, 但是恰当的命名规范 (尽量少重名) 可以弥补.</p>
+<p>
+Java 和 C# 语言的主力开发工具最好用 IDE 而不是 Emacs.</p>
+</div>
+</div>
+<div id="outline-container-headline-67" class="outline-3">
+<h3 id="headline-67">
+邮件
+</h3>
+<div id="outline-text-headline-67" class="outline-text-3">
+<p>我用 <a href="http://www.gnus.org/">Gnus</a>. 但有很多其他方案.</p>
+<p>
+如你必须访问 Microsoft Exchange Servers, 还要用 <a href="http://davmail.sourceforge.net/">Davmail</a>.</p>
+<p>
+用了 Davmail 后, 还可以用 <a href="http://getpopfile.org/">Popfile</a> 来分捡邮件. Davmail + Popfile 让我生活在天堂.</p>
+</div>
+</div>
+<div id="outline-container-headline-68" class="outline-3">
+<h3 id="headline-68">
+为什么 Emacs 启动时从服务器 (elpa) 安装第三方软件包 (package) 会失败?
+</h3>
+<div id="outline-text-headline-68" class="outline-text-3">
+<p>请启动 Emacs 后, 运行 <code class="verbatim">M-x package-refresh-contents</code> 以从服务器更新软件索引, 然后重启 Emacs 即可.</p>
+</div>
+</div>
+<div id="outline-container-headline-69" class="outline-3">
+<h3 id="headline-69">
+有些网站 Emacs 访问不了
+</h3>
+<div id="outline-text-headline-69" class="outline-text-3">
+<p>在命令行中启动 Emacs 时加上 <code class="verbatim">http_proxy=your-proxy-server-ip:port</code> 前缀.</p>
+<p>
+例如,</p>
+<div class="src src-sh">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">http_proxy</span><span class="o">=</span>http://127.0.0.1:8000 emacs -nw</span></span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-70" class="outline-3">
+<h3 id="headline-70">
+是否应尽早学习 Emacs Lisp
+</h3>
+<div id="outline-text-headline-70" class="outline-text-3">
+<p>不用,顺其自然最好.</p>
+<p>
+Lisp 语法和通常的语言不同, 除非有相当编程经验 (至少 10 年), 一般人都会对其有一点负面情绪 (当然是毫无道理的偏见!). 学习任何新东西, 长期来说兴趣最重要. 一开始应避免任何负面情绪.</p>
+<p>
+Emacs Lisp 又是只用于 Emacs 的语言, 有大量术语需要掌握. 如 &#34;Buffer&#34;, &#34;Yank&#34;, &#34;Font face&#34;, 只有资深用户才能理解.</p>
+<p>
+所以在使用经验不足前学习软件拓展语言(Domain Specific Language)很低效.</p>
+<p>
+参考前文关于找到切入点的一节, 我推荐的顺序是, 先用优秀的配置享受到好处, 有了兴趣后学习 Lisp 就水到渠成了.</p>
+<p>
+选择适合自己的路, 一年以后天才和普通人达到的高度都是一样的.</p>
+</div>
+</div>
+<div id="outline-container-headline-71" class="outline-3">
+<h3 id="headline-71">
+掌握 Emacs Lisp 是否是成为高手的必要条件?
+</h3>
+<div id="outline-text-headline-71" class="outline-text-3">
+<p>否. 但 Lisp 是很强大的语言, 特点是一切皆可改. 当我说 &#34;一切&#34; 的时候, 我就是指字面意义上的 &#34;一切&#34;, 不是修辞上的夸张.</p>
+<p>
+我用过许多编辑器, 除了 Emacs 没有一个能做到 &#34;一切可改&#34; 这点 Vim 也不行.</p>
+<p>
+学点 Lisp 对提高 Emacs 水平没坏处. 另外 Lisp 语法不错, 值得一学.</p>
+<p>
+顺便说一下, Lisp 很简单, 比 VB 容易多了, 一旦你适应其语法, 就会发觉它其实蛮友好的, 至少少打很多字.</p>
+</div>
+</div>
+<div id="outline-container-headline-72" class="outline-3">
+<h3 id="headline-72">
+有必要学习键盘宏 (Keyboard Macros) 吗?
+</h3>
+<div id="outline-text-headline-72" class="outline-text-3">
+<p>没必要, Lisp 足够了.</p>
+<p>
+但是键盘宏生成的 Lisp 代码有时候比较有趣, 建议你精通 Lisp 后再来玩玩键盘宏.</p>
+</div>
+</div>
+<div id="outline-container-headline-73" class="outline-3">
+<h3 id="headline-73">
+基本操作我会了, 下一步学什么迷茫中
+</h3>
+<div id="outline-text-headline-73" class="outline-text-3">
+<p>关键是你打算用这把瑞士军刀做什么.</p>
+<p>
+前文已强调过以兴趣和解决实际问题作为切入点.</p>
+<p>
+举一些我自己的例子说明:</p>
+<ul>
+<li>我有写博客需要, 懒得用 Wordpress 那个破界面, 所以用 <a href="https://github.com/punchagan/org2blog">org2blog</a></li>
+<li>开发 Ruby on Rails 程序需要 IDE, 装了 rinari</li>
+<li>做跨平台 C++ 桌面开发, 装了 cmake-mode</li>
+<li>需在多个子窗口间跳来跳去, 所以装了 <a href="https://github.com/nschum/window-numbering.el">window-numbering.el</a></li>
+<li>大项目需同时调试多种语言, 所以装了 <a href="https://github.com/redguardtoo/evil-nerd-commenter">evil-nerd-commenter</a>, 这样不用记特定语言的语法就可注释掉代码.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-74" class="outline-3">
+<h3 id="headline-74">
+如何学习 org-mode?
+</h3>
+<div id="outline-text-headline-74" class="outline-text-3">
+<p><a href="http://www.cnblogs.com/Open_Source/archive/2011/07/17/2108747.html">Org-mode 简明手册</a> 是不错的中文教程.</p>
+<p>
+最好的英文教程是 Carsten Dominik (Org-mode 发明者) 在 <a href="http://orgmode.org/talks.html">google tech talks 上的演讲</a>. 其要点为 org-mode 本质是一个文本文件, 只要记住按 TAB 展开或者缩进条目就可以了. 其他特性可慢慢学.</p>
+</div>
+</div>
+<div id="outline-container-headline-75" class="outline-3">
+<h3 id="headline-75">
+对于 &#34;一切都用 Emacs 来完成&#34; 的观点你怎么看?
+</h3>
+<div id="outline-text-headline-75" class="outline-text-3">
+<p>不要走火入魔. Emacs 本质是个平台, 提供了无限可能性.</p>
+<p>
+从实用角度讲, Emacs 和其他工具结合有时能更快完成工作 (不过在没有一年的修炼之前 <strong>千万不要猜 Emacs 不能做什么</strong>).</p>
+<p>
+以下是 Emacs 不一定能吃独食的地方:</p>
+<ul>
+<li>剪贴簿: 应结合命令行工具 xsel (Linux) /pbpaste (OSX) /putclip (Cygwin)</li>
+<li>Web 浏览: 用传统浏览器配合其插件</li>
+<li>远程登录管理: 用 screen/tmux</li>
+<li>FTP: 用专门的 FTP 软件</li>
+<li>文件管理: 用专用软件</li>
+<li>Lisp 速度比较慢，如有大计算量的工作, 交给第三方工具来作.</li>
+</ul>
+<p>重点是头脑灵活, 既坚信 Emacs 无所不能, 也适当变通.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-76" class="outline-2">
+<h2 id="headline-76">
+联系我
+</h2>
+<div id="outline-text-headline-76" class="outline-text-2">
+<p>这是我的 <a href="https://twitter.com/#!/chen_bin">Twitter</a> 和 <a href="https://plus.google.com/110954683162859211810">Google Plus</a> 以及 <a href="http://www.weibo.com/u/2453581630">微博</a>, 我在新浪微博账号&#34;emacsguru&#34;.</p>
+<p>
+博客为 <a href="http://blog.binchen.org">http://blog.binchen.org</a>.</p>
+<p>
+我不回答具体配置的问题. 如你通读本文, 应知道哪里找答案更好.</p>
+</div>
+</div>
+<div id="outline-container-headline-77" class="outline-2">
+<h2 id="headline-77">
+结语
+</h2>
+<div id="outline-text-headline-77" class="outline-text-2">
+<p>再强调一下本文最重要的观点:</p>
+<ul>
+<li>以 <strong>解决实际问题</strong> 产生的兴趣引导</li>
+<li><strong>完全照抄世界顶尖高手如 Steve Purcell 的配置</strong>, 尽量避免自己写 Lisp</li>
+<li>给高手报 bug 就是最好的学习,</li>
+<li>学习 Emacs 和 <strong>学任何专业技能 (拉小提琴, 解数学题) 的方法论都是一样的</strong>, 请参考 <a href="http://book.douban.com/subject/4726323/">一万小时天才理论</a>.</li>
+</ul>
+<p>关键是你以严肃的态度把其当作专业技能学习.</p>
+<p>
+很多人之所以不赞同我的核心观点, 是因为内心深处还有把 Emacs 当玩具来炫耀 &#34;我有多酷&#34; 的意识.</p>
+<p>
+Emacs 强大到可以作为另类娱乐来博眼球. 但本质是专业人士使用的神器.</p>
+<p>
+打个比方, 职业杀手对于刀只关心两件事:</p>
+<ol>
+<li>高效地杀人</li>
+<li>任何环境下都可靠</li>
+</ol>
+<p>刀的装饰是否漂亮或技巧是否自己原创对他并不重要.</p>
+<p>
+Emacs 就是那把刀.</p>
+<div id="outline-container-headline-78" class="outline-3">
+<h3 id="headline-78">
+如何报 bug
+</h3>
+<div id="outline-text-headline-78" class="outline-text-3">
+<p>本文官方网址为 <a href="https://github.com/redguardtoo/mastering-emacs-in-one-year-guide">https://github.com/redguardtoo/mastering-emacs-in-one-year-guide</a>.</p>
+<p>
+有任何疑问, 请在以上网址报 bug. 这比 Email 快. 因 GitHub 会以邮件通知我, GitHub 邮件永远归类至我的最优先文件夹下.</p>
+<p>
+如给我发 Email, 会淹没于垃圾邮件中.</p>
+</div>
+</div>
+<div id="outline-container-headline-79" class="outline-3">
+<h3 id="headline-79">
+不要复制粘帖本文
+</h3>
+<div id="outline-text-headline-79" class="outline-text-3">
+<p>Emacs 本质上是一个社区和平台, 不断有新的有趣的人和技术出现. 我会定期更新本文.</p>
+<p>
+如果你拷贝粘帖全文, 会使自己和他人错过更新.</p>
+<p>
+我建议分享本文的链接, 中英文纯文字版会发布在 GitHub 上 (<a href="https://github.com/redguardtoo/mastering-emacs-in-one-year-guide">https://github.com/redguardtoo/mastering-emacs-in-one-year-guide</a>)</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-80" class="outline-2">
+<h2 id="headline-80">
+版权
+</h2>
+<div id="outline-text-headline-80" class="outline-text-2">
+<p>本文采用以下协议进行授权, <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">自由转载 - 非商用 - 非衍生 - 保持署名 | Creative Commons BY-NC-ND 3.0</a>, 转载请注明作者及出处.</p>
+</div>
+</div>
+
+        </div>
+        
+        
+
+        
+        
+
+          
+      </div>
+     
+      
+      
+        
+        
+          
+          
+        
+      <script>
+        var oid = "views_blog\/guide-zh.org"
+        var oid_likes = "likes_blog\/guide-zh.org"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.0860cf4e04fa2d72cc33ddba263083464d48f67de06114529043cb4623319efed4f484fd7f1730df5abea0e2da6f3538855634081d02f2d6e920b956f063e823.js" integrity="sha512-CGDPTgT6LXLMM926JjCDRk1I9n3gYRRSkEPLRiMxnv7U9IT9fxcw31q&#43;oOLabzU4hVY0CB0C8tbpILlW8GPoIw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/blog/why-blog/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >独立博客过时后，为什么开始写博客了？</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-05-29 16:01:02 &#43;0800 CST">2022-05-29</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+    
+    
+    
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/project/"
+            title="">Projects</a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/tags/"
+            title="">Tags</a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      <a href="/">
+      可爱的小困熊
+      </a>
+    </p>
+    
+
+    
+    
+    <p class="text-xs text-neutral-500 dark:text-neutral-400">
+      
+      
+      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+    </p>
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js" integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+</footer><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:60403/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
