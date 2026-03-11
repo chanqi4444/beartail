@@ -1,0 +1,16 @@
+# Hugo build output
+/public
+/resources
+#resources/_gen/
+
+# Hugo lock
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# node
+node_modules
+
+# Hugo cache
+.hugo_cache
