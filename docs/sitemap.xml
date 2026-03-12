@@ -4,43 +4,13 @@
 
   <url>
     <loc>http://116.62.214.11/blog/</loc>
-    <lastmod>2026-03-13T01:24:21+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://116.62.214.11/blog/test/</loc>
-    <lastmod>2026-03-13T01:24:21+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://116.62.214.11/blog/second-post/</loc>
-    <lastmod>2026-03-13T01:24:21+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://116.62.214.11/blog/first-post/</loc>
-    <lastmod>2026-03-13T01:24:21+08:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://116.62.214.11/</loc>
-    <lastmod>2026-03-13T01:24:21+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://116.62.214.11/blog/content/posts/test/</loc>
-    <lastmod>2026-03-12T23:12:56+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://116.62.214.11/blog/content/posts/second-post/</loc>
-    <lastmod>2026-03-12T23:11:04+08:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

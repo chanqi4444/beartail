@@ -7,57 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2026 </copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 01:24:21 +0800</lastBuildDate><atom:link href="http://116.62.214.11/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>test</title>
-      <link>http://116.62.214.11/blog/test/</link>
-      <pubDate>Fri, 13 Mar 2026 01:24:21 +0800</pubDate>
-      
-      <guid>http://116.62.214.11/blog/test/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>第二篇文章</title>
-      <link>http://116.62.214.11/blog/second-post/</link>
-      <pubDate>Fri, 13 Mar 2026 01:24:21 +0800</pubDate>
-      
-      <guid>http://116.62.214.11/blog/second-post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>第一篇文章</title>
-      <link>http://116.62.214.11/blog/first-post/</link>
-      <pubDate>Fri, 13 Mar 2026 01:24:21 +0800</pubDate>
-      
-      <guid>http://116.62.214.11/blog/first-post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://116.62.214.11/blog/content/posts/test/</link>
-      <pubDate>Thu, 12 Mar 2026 23:12:56 +0800</pubDate>
-      
-      <guid>http://116.62.214.11/blog/content/posts/test/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>第二篇文章</title>
-      <link>http://116.62.214.11/blog/content/posts/second-post/</link>
-      <pubDate>Thu, 12 Mar 2026 23:11:04 +0800</pubDate>
-      
-      <guid>http://116.62.214.11/blog/content/posts/second-post/</guid>
-      <description></description>
-      
-    </item>
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://116.62.214.11/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>一年成为Emacs高手 (像熊一样使用编辑器)</title>
