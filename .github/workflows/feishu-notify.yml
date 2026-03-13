@@ -1,0 +1,53 @@
+name: GitHub → Feishu Commit Notify
+
+on:
+  push:
+    branches:
+      - main  # 或你想监控的分支
+
+jobs:
+  notify-feishu:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send commit info to Feishu
+        env:
+          FEISHU_WEBHOOK: https://open.feishu.cn/open-apis/bot/v2/hook/498e0e3e-e39d-4c34-9a72-10d85deebe3d
+        run: |
+          # 获取最新的 commit 列表（最多5条）
+          COMMITS=$(git log -5 --pretty=format:'- [%h](https://github.com/${GITHUB_REPOSITORY}/commit/%H) %s by %an' ${{ github.event.before }}..${{ github.sha }})
+
+          # 如果没有新 commit，退出
+          if [ -z "$COMMITS" ]; then
+            echo "No new commits."
+            exit 0
+          fi
+
+          # 构造飞书卡片消息 JSON
+          read -r -d '' PAYLOAD << EOF
+{
+  "msg_type": "interactive",
+  "card": {
+    "header": {
+      "title": {
+        "tag": "plain_text",
+        "content": "📌 GitHub Push 通知"
+      }
+    },
+    "elements": [
+      {
+        "tag": "div",
+        "text": {
+          "tag": "lark_md",
+          "content": "**Repository**: ${{ github.repository }}\n**Branch**: ${{ github.ref_name }}\n**Pusher**: ${{ github.actor }}\n\n**Commits:**\n$COMMITS"
+        }
+      }
+    ]
+  }
+}
+EOF
+
+          # 发送到飞书 Webhook
+          curl -s -X POST $FEISHU_WEBHOOK \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD"
