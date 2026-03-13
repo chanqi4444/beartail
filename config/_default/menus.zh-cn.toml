@@ -64,10 +64,16 @@
 #   pageRef = "booknote"
 #   weight = 20
 
+
+[[main]]
+  name = "Bearbot"
+  pageRef = "bearbot"
+  weight = 20
+
 [[main]]
   name = "Book Note"
   pageRef = "booknote"
-  weight = 20
+  weight = 23
 
 [[main]]
   name = "Now"

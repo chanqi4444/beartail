@@ -1,0 +1,398 @@
+Watching for changes in /root/dylansite/new_beartail/archetypes, /root/dylansite/new_beartail/assets/{css,img}, /root/dylansite/new_beartail/content/{bearbot,blog,booknote,project}, /root/dylansite/new_beartail/data, /root/dylansite/new_beartail/i18n, /root/dylansite/new_beartail/layouts, /root/dylansite/new_beartail/static/{static,static_backup}, /root/dylansite/new_beartail/themes/blowfish/archetypes, /root/dylansite/new_beartail/themes/blowfish/assets/{css,icons,img,js,lib}, /root/dylansite/new_beartail/themes/blowfish/data, ... and 5 more
+Watching for config changes in /root/dylansite/new_beartail/hugo.toml, /root/dylansite/new_beartail/config/_default, /root/dylansite/new_beartail/themes/blowfish/config.toml, /root/dylansite/new_beartail/themes/blowfish/config/_default, /root/dylansite/new_beartail/themes/blowfish/config.toml, /root/dylansite/new_beartail/themes/blowfish/config/_default, /root/dylansite/new_beartail/go.mod
+Start building sites … 
+hugo v0.157.0+extended+withdeploy linux/amd64 BuildDate=unknown
+
+WARN  The []interface {} data from 'contributors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  The []interface {} data from 'sponsors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  [BLOWFISH] Comments are enabled for about.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-826/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析-397/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析-138/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析-988/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年环境趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析-220/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析-577/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析-439/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-134/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析-57/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-533/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-25/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai-blog-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-607/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-954/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在医疗领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在娱乐领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用-611/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-375/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用-917/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用-713/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/fenda-tech-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-226/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资公用事业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/zettelkasten-knowledge-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在金融领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/emacs-productivity-hacks/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/multilingual-learning-strategies/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/game-theory-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-242/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-524/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-719/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-961/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资工业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资材料股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-930/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资科技股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资消费股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资金融股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-151/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-1000/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率-91/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资能源股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-685/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-207/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生活效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高沟通效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高研发效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率-823/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-493/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-107/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-329/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高管理效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-35/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习c的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法-383/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法-948/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法-326/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-999/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法-168/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-296/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习machine-learning的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法-495/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习sql的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-265/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-957/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202207-why-blog.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-for-whom/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/test.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202303 how-i-learn-frontend/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202210 deploy-project-to-gh-pages/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/lisp.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for now.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for booknote/202208 atomic-habits/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/shen-emacs/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/stop-watch/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/guide-zh.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/snake-game/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-a-wesite-using-github-pages-and-hugo/index.md but no comments partial exists.
+
+                  │ ZH - CN 
+──────────────────┼─────────
+ Pages            │     204 
+ Paginator pages  │      26 
+ Non-page files   │      28 
+ Static files     │      18 
+ Processed images │      46 
+ Aliases          │      37 
+ Cleaned          │       0 
+
+Built in 461 ms
+Environment: "development"
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:8082/ (bind address 0.0.0.0) 
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site (#1).
+2026-03-13 03:29:06.676 +0800
+WARN  The []interface {} data from 'contributors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  The []interface {} data from 'sponsors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析-397/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for about.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-826/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析-138/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析-988/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年环境趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析-577/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析-220/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析-439/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析-57/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-25/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-134/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-533/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai-blog-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-607/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在医疗领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在娱乐领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-954/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用-611/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用-917/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-375/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在金融领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用-713/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/fenda-tech-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/multilingual-learning-strategies/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/game-theory-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/emacs-productivity-hacks/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资公用事业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-242/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/zettelkasten-knowledge-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-930/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-226/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-524/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-961/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-719/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资工业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资材料股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资消费股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资科技股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资能源股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资金融股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-151/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-1000/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率-91/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-493/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-685/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-207/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-35/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高沟通效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率-823/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生活效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高管理效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高研发效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-107/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法-383/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习c的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-329/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法-168/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法-948/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法-326/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习machine-learning的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-296/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-999/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法-495/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习sql的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-265/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-957/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202207-why-blog.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-for-whom/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/lisp.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202210 deploy-project-to-gh-pages/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/test.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202303 how-i-learn-frontend/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/shen-emacs/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for now.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for booknote/202208 atomic-habits/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/guide-zh.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-a-wesite-using-github-pages-and-hugo/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/stop-watch/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/snake-game/index.md but no comments partial exists.
+Web Server is available at http://localhost:8082/ (bind address 0.0.0.0)
+Rebuilt in 668 ms
+
+Change of config file detected, rebuilding site (#2).
+2026-03-14 00:44:05.507 +0800
+WARN  The []interface {} data from 'contributors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  The []interface {} data from 'sponsors.json' overridden by higher precedence []interface {} data already in the data tree
+WARN  [BLOWFISH] Comments are enabled for about.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析-988/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析-397/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年教育趋势分析-826/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年交通趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年医疗趋势分析-138/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年文化趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年环境趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析-439/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年经济趋势分析-577/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年社会趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年科技趋势分析-220/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年能源趋势分析/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/2026年金融趋势分析-57/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-25/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-954/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-533/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在交通领域的应用-134/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai-blog-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在农业领域的应用-607/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在娱乐领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在教育领域的应用-917/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在医疗领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在制造业领域的应用-611/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-375/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在物流领域的应用-512/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在能源领域的应用-274/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用-713/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在金融领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/fenda-tech-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/ai在零售领域的应用/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/digital-minimalism/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/emacs-productivity-hacks/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/multilingual-learning-strategies/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/mobile-learning-strategies/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/game-theory-analysis/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/org-mode-workflow/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/music-and-cognitive-performance/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/quantum-computing-introduction/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/web-scraping-basics/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资公用事业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-226/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/zettelkasten-knowledge-management/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-242/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-930/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资农业股票-961/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-719/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票-275/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资地产股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资工业股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资医药股票-524/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资材料股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资科技股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资消费股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率-91/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-151/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资金融股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高创新效率-1000/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高团队协作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何投资能源股票/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-685/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高学习效率-493/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高沟通效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-35/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生产效率-823/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高生活效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高工作效率-207/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高研发效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高管理效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-329/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习c的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/如何提高销售效率-107/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习data-analysis的最佳方法-383/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习htmlcss的最佳方法-948/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法-168/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习javascript的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法-326/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-296/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习machine-learning的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法-999/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习java的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习mobile-development的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习sql的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法-495/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习python的最佳方法/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-957/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for bearbot/学习web-development的最佳方法-265/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-for-whom/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202207-why-blog.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/lisp.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202303 how-i-learn-frontend/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/test.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for now.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/guide-zh.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/shen-emacs/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202210 deploy-project-to-gh-pages/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for booknote/202208 atomic-habits/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/stop-watch/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for project/snake-game/index.md but no comments partial exists.
+WARN  [BLOWFISH] Comments are enabled for blog/202208 create-a-wesite-using-github-pages-and-hugo/index.md but no comments partial exists.
+Web Server is available at http://localhost:8082/ (bind address 0.0.0.0)
+Rebuilt in 2515 ms
