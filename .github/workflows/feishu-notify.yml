@@ -8,7 +8,6 @@ on:
 jobs:
   notify-feishu:
     runs-on: ubuntu-latest
-
     steps:
       - name: Send commit info to Feishu
         env:
@@ -29,32 +28,9 @@ jobs:
             exit 0
           fi
 
-          # 构造飞书卡片消息 JSON
-          PAYLOAD=$(cat <<EOF
-{
-  "msg_type": "interactive",
-  "card": {
-    "header": {
-      "title": {
-        "tag": "plain_text",
-        "content": "📌 GitHub Push 通知"
-      }
-    },
-    "elements": [
-      {
-        "tag": "div",
-        "text": {
-          "tag": "lark_md",
-          "content": "**Repository**: $REPO\n**Branch**: $BRANCH\n**Pusher**: $PUSHER\n\n**Commits:**\n$COMMITS"
-        }
-      }
-    ]
-  }
-}
-EOF
-)
+          # 构造 JSON（单行拼接，避免 EOF 解析问题）
+          PAYLOAD="{\"msg_type\":\"interactive\",\"card\":{\"header\":{\"title\":{\"tag\":\"plain_text\",\"content\":\"📌 GitHub Push 通知\"}},\"elements\":[{\"tag\":\"div\",\"text\":{\"tag\":\"lark_md\",\"content\":\"**Repository**: $REPO\\n**Branch**: $BRANCH\\n**Pusher**: $PUSHER\\n\\n**Commits:**\\n$COMMITS\"}}]}}"
 
-          # 发送到飞书
           curl -s -X POST $FEISHU_WEBHOOK \
             -H "Content-Type: application/json" \
             -d "$PAYLOAD"
