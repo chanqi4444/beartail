@@ -11,9 +11,3 @@ jobs:
         uses: XRSec/feishu-bot-webhook-action@v1
         with:
           FEISHU_BOT_WEBHOOK: ${{ secrets.FEISHU_BOT_WEBHOOK }}
-          MSG_TEXT: |
-            ## 部署完成！🎉
-            
-            **状态**: 成功  
-            **分支**: main  
-            **链接**: [Beartail](https://github.com/chanqi4444/beartail)
