@@ -3,7 +3,7 @@ name: GitHub → Feishu Commit Notify
 on:
   push:
     branches:
-      - main  # 或你想监控的分支
+      - main
 
 jobs:
   notify-feishu:
@@ -14,17 +14,19 @@ jobs:
         env:
           FEISHU_WEBHOOK: https://open.feishu.cn/open-apis/bot/v2/hook/498e0e3e-e39d-4c34-9a72-10d85deebe3d
         run: |
-          # 获取最新的 commit 列表（最多5条）
-          COMMITS=$(git log -5 --pretty=format:'- [%h](https://github.com/${GITHUB_REPOSITORY}/commit/%H) %s by %an' ${{ github.event.before }}..${{ github.sha }})
+          REPO="${GITHUB_REPOSITORY}"
+          BRANCH="${GITHUB_REF_NAME}"
+          PUSHER="${GITHUB_ACTOR}"
 
-          # 如果没有新 commit，退出
+          # 获取最新 commit
+          COMMITS=$(git log -5 --pretty=format:'- [%h](https://github.com/'"$REPO"'/commit/%H) %s by %an' ${{ github.event.before }}..${{ github.sha }})
+
           if [ -z "$COMMITS" ]; then
             echo "No new commits."
             exit 0
           fi
 
-          # 构造飞书卡片消息 JSON
-          read -r -d '' PAYLOAD << EOF
+          PAYLOAD=$(cat << EOF
 {
   "msg_type": "interactive",
   "card": {
@@ -39,15 +41,15 @@ jobs:
         "tag": "div",
         "text": {
           "tag": "lark_md",
-          "content": "**Repository**: ${{ github.repository }}\n**Branch**: ${{ github.ref_name }}\n**Pusher**: ${{ github.actor }}\n\n**Commits:**\n$COMMITS"
+          "content": "**Repository**: $REPO\n**Branch**: $BRANCH\n**Pusher**: $PUSHER\n\n**Commits:**\n$COMMITS"
         }
       }
     ]
   }
 }
 EOF
+)
 
-          # 发送到飞书 Webhook
           curl -s -X POST $FEISHU_WEBHOOK \
             -H "Content-Type: application/json" \
             -d "$PAYLOAD"
