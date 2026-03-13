@@ -10,4 +10,10 @@ jobs:
       - name: Send notification to Feishu
         uses: XRSec/feishu-bot-webhook-action@v1
         with:
-          FEISHU_BOT_WEBHOOK: https://open.feishu.cn/open-apis/bot/v2/hook/498e0e3e-e39d-4c34-9a72-10d85deebe3d
+          FEISHU_BOT_WEBHOOK: ${{ secrets.FEISHU_BOT_WEBHOOK }}
+          MSG_TEXT: |
+            ## 部署完成！🎉
+            
+            **状态**: 成功  
+            **分支**: main  
+            **链接**: [Beartail](https://github.com/chanqi4444/beartail)
