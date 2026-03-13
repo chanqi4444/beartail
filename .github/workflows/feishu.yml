@@ -1,21 +1,14 @@
-name: Send Custom Message
+name: Send to Feishu
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Send custom message to Feishu
+      - name: Send notification to Feishu
         uses: XRSec/feishu-bot-webhook-action@v1
         with:
           FEISHU_BOT_WEBHOOK: ${{ secrets.FEISHU_BOT_WEBHOOK }}
           FEISHU_BOT_SIGNKEY: ${{ secrets.FEISHU_BOT_SIGNKEY }}
-          MSG_TEXT: |
-            ## 部署完成！🎉
-
-            **状态**: 成功
-            **分支**: main
-            **链接**: [查看详情](https://github.com/user/repo)
-
-            用户可以直接在 Markdown 中编写链接，如 [GitHub](https://github.com)，无需额外处理。
