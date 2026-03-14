@@ -23,6 +23,12 @@ buildFuture = false
 #path = "github.com/nunocoracao/blowfish/v2"
 
 # 补充 Author 配置，解决 footer 模板依赖
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # 允许 HTML 标签，用于 KaTeX 渲染公式
+
 [Author]
   name = "myname"  # 比如 "Dylan"，可自定义
   email = "your-email@example.com"  # 可选，填你的邮箱或留空
